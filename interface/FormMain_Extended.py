@@ -173,12 +173,12 @@ class FormMain(Ui_MainWindow):
     def actionTabbed_View_triggered(self):
         if self.actionWindow_View.isChecked(): self.actionWindow_View.setChecked(False)
         if not self.actionTabbed_View.isChecked(): self.actionTabbed_View.setChecked(True)
-        self.mdiArea.setViewMode(QtGui.QMdiArea.TabbedView)
+        self.mdiArea.setViewMode(QtWidgets.QMdiArea.TabbedView)
 
     def actionWindow_View_triggered(self):
         if self.actionTabbed_View.isChecked(): self.actionTabbed_View.setChecked(False)
         if not self.actionWindow_View.isChecked(): self.actionWindow_View.setChecked(True)
-        self.mdiArea.setViewMode(QtGui.QMdiArea.SubWindowView)
+        self.mdiArea.setViewMode(QtWidgets.QMdiArea.SubWindowView)
 
     def actionInput_PACK_triggered(self):
         self.clean_children_list()

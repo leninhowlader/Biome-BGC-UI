@@ -1,0 +1,122 @@
+This file contains the list of parameters to be used in parameterization process. Each parameter starts with a key word @PARAMETER and ends with @@ and each parameter has four attributes (name, upper and lower bounds, and starting value). The names must comply with the names used in interface module (..interface/paramdomain/epc.prm).
+
+@PARAMETER
+Parameter Name: Annual leaf turnover fraction [1/yr]
+Short Name: p1
+Type: EPC Parameter
+Upper Bound: 0.5
+Lower Bound: 0.13
+Starting Value: 0.26
+Hard upper bound: 0.75
+Hard lower bound: 0.065
+@@
+
+@PARAMETER
+Parameter Name: Annual fine root turnover fraction [1/yr]
+Short Name: p2
+Type: EPC Parameter
+Upper Bound: 1.2
+Lower Bound: 0.3
+Starting Value: 0.8  
+Hard upper bound: 1.5
+Hard lower bound: 0.2
+@@
+
+@PARAMETER
+Parameter Name: Annual coarse root turnover fraction [1/yr]
+Short Name: p3
+Type: EPC Parameter
+Upper Bound: 0.2
+Lower Bound: 0.02
+Starting Value: 0.06 
+Hard upper bound: 0.24
+Hard lower bound: 0.01
+@@
+
+@PARAMETER
+Parameter Name: Annual live wood turnover fraction [1/yr]
+Short Name: p4
+Type: EPC Parameter
+Upper Bound: 0.8
+Lower Bound: 0.6
+Starting Value: 0.6 
+Hard upper bound: 1.2
+Hard lower bound: 0.3
+@@
+
+@PARAMETER
+Parameter Name: New fine root / new leaf ratio (allocation)
+Short Name: p5
+Type: EPC Parameter
+Upper Bound: 2.3
+Lower Bound: 0.6
+Starting Value: 1.0 
+Hard upper bound: 3.45
+Hard lower bound: 0.3
+@@
+
+@PARAMETER
+Parameter Name: New stem / new leaf ratio (allocation)
+Short Name: p6
+Type: EPC Parameter
+Upper Bound: 2.0
+Lower Bound: 0.5
+Starting Value: 2.0   
+Hard upper bound: 3.0
+Hard lower bound: 0.25
+@@
+
+@PARAMETER
+Parameter Name: New live Wood / new total wood ratio (allocation)
+Short Name: p7
+Type: EPC Parameter
+Upper Bound: 0.2
+Lower Bound: 0.06
+Starting Value: 0.065  
+Hard upper bound: 0.3
+Hard lower bound: 0.03
+@@
+
+@PARAMETER
+Parameter Name: New coarse root / new stem ratio (allocation)
+Short Name: p8
+Type: EPC Parameter
+Upper Bound: 0.4
+Lower Bound: 0.1
+Starting Value: 0.18 
+Hard upper bound: 0.6
+Hard lower bound: 0.05
+@@
+
+@PARAMETER
+Parameter Name: Canopy water interception height [mm/LAI]
+Short Name: p9
+Type: EPC Parameter
+Upper Bound: 0.3
+Lower Bound: 0.05
+Starting Value: 0.26 
+Hard upper bound: 0.45
+Hard lower bound: 0.025
+@@
+
+@PARAMETER
+Parameter Name: Fraction of leaf N in RuBisCO
+Short Name: p10
+Type: EPC Parameter
+Upper Bound: 0.2
+Lower Bound: 0.06
+Starting Value: 0.0633 
+Hard upper bound: 0.3
+Hard lower bound: 0.04
+@@
+
+@PARAMETER
+Parameter Name: Maximum stomatal conductance [m/s]
+Short Name: p11
+Type: EPC Parameter
+Upper Bound: 0.009
+Lower Bound: 0.003
+Starting Value: 0.005
+Hard upper bound: 0.01
+Hard lower bound: 0.002
+@@

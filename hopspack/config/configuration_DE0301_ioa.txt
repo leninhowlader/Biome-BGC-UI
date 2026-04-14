@@ -1,0 +1,18 @@
+@
+Model Home Directory = ../../futmon_c_budget/
+Initialization File = ini_0301_89_09_05.ini
+Parameter File = parameter/parameter_DE0301.txt
+Comparison File = comparison/comparison_DE0301.txt
+Extention Postfix = hioa
+Solution File = output/calibration/DE0301_ioa.txt
+Stat File = stat/wt_nmax/plot301/stat_result_301_rmse.txt
+Objective Function = Index of Agreement
+Objective Target = 
+Normalization Option = Normalize data using Observation Max
+Penalty Option = Linear Distance
+Penalty Constant = 50
+Parameter Sequence = 'p3', 'p4', 'p7'
+Relative Path Flag =False
+Reference Directory = 
+Graph Flag = FALSE 
+@@

@@ -1,0 +1,25 @@
+This file contains the list of parameters to be used in parameterization process. Each parameter starts with a key word @PARAMETER and ends with @@ and each parameter has four attributes (name, upper and lower bounds, and starting value). The names must comply with the names used in interface module (..interface/paramdomain/epc.prm).
+
+@PARAMETER
+Parameter Name: New fine root / new leaf ratio (allocation)
+Type: EPC Parameter
+Upper Bound: 0.89594
+Lower Bound: 0.611238
+Starting Value: 0.624796 
+Hard upper bound: 3.45
+Hard lower bound: 0.3
+@@
+
+
+@PARAMETER
+Parameter Name: Maximum stomatal conductance [m/s]
+Type: EPC Parameter
+Upper Bound: 0.004709
+Lower Bound: 0.003025
+Starting Value: 0.00317
+Hard upper bound: 0.01
+Hard lower bound: 0.002
+@@
+
+
+

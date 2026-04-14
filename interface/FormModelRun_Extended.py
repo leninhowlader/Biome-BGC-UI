@@ -42,7 +42,7 @@ class FormModelRun(Ui_FormModelRun):
         self.addSocket()
 
         self.signalMapper = QtCore.QSignalMapper(self.form)
-        self.signalMapper.mapped[QtWidgets.QWidget].connect(self.dynamicCombo_indexChanged)
+        self.signalMapper.mapped[QtWidgets.QWidget].indexChanged.connect(self.dynamicCombo_indexChanged)
 
         self.signalMapper_gconfig_checkbox = QtCore.QSignalMapper(self.form)
         self.signalMapper_gconfig_checkbox.mapped[QtWidgets.QWidget].connect(self.refresh_configuration)

@@ -1,0 +1,18 @@
+@
+Model Home Directory = ../../futmon_c_budget/
+Initialization File = ini_0302_87_09_04.ini
+Parameter File = parameter/parameter_eleven.txt
+Comparison File = comparison/comparison_DE0302.txt
+Extention Postfix = strvalDE0302
+Solution File = output/cal_best_point/DE0302_aad.txt
+Stat File = output/starting_point/stat_DE0302.txt
+Objective Function = Root Mean Square Error
+Objective Target = Minimize Error
+Normalization Option = Normalize data using Observation Max
+Penalty Option = Squared Distance
+Penalty Constant = 50.0
+Parameter Sequence = 
+Relative Path Flag =True
+Reference Directory = /home/hasan/Documents/Biome_BGC_Interface/hopspack/
+Graph Flag = FALSE 
+@@
