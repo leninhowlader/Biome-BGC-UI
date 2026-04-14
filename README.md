@@ -194,22 +194,23 @@ Figure properties includes the title of the figure, number and orientation of su
 
 Table 2.1: Graph Properties
 
-Property | Description	| Data Type and Value
-graph_title	| Main title of the graph	| Text
-no_of_plot	| Number of sub-plots in the graph	| Numeric (Integer)
-plot_orientation_col	| Number of column in orientation grid	| Numeric (Integer)
-plot_orientation_row	| Number of row in plot orientation grid	| Numeric (Integer)
-edit_feature	| Graph display properties (OBJECT SPECIFIER)	| 
-window_text	| Title of the graph window	| Text
-faceColor	| Canvas Colour	| Text (html colour code)
-width	| With of the graph window in Pixel	| Numeric (Integer)
-height	| Height of the graph window in Pixel	| Numeric (Integer)
-showMaximized	| Flag to decide if the graph window would be shown maximized	| Boolean (True/False)
-show_figure_title	| Flag to decide if the title would be shown	| Boolean (True/False)
-font_size	| Font size of the title	| Numeric (Float)
-font_color	| Colour of the main title	| Text (html colour code)
-show_bold	| Flag to decide if the title would be shown bold	| Boolean (True/False)
-horizontal_alignment	| Alignment of the title	| Text (center/left/right)
+| Property | Description	| Data Type and Value |
+|--------------------------|---------------------------------------------------------------------|------------------------------|
+| graph_title	| Main title of the graph	| Text |
+| no_of_plot	| Number of sub-plots in the graph	| Numeric (Integer) |
+| plot_orientation_col	| Number of column in orientation grid	| Numeric (Integer) |
+| plot_orientation_row	| Number of row in plot orientation grid	| Numeric (Integer) |
+| edit_feature	| Graph display properties (OBJECT SPECIFIER)	|  |
+| window_text	| Title of the graph window	| Text |
+| faceColor	| Canvas Colour	| Text (html colour code) |
+| width	| With of the graph window in Pixel	| Numeric (Integer) |
+| height	| Height of the graph window in Pixel	| Numeric (Integer) |
+| showMaximized	| Flag to decide if the graph window would be shown maximized	| Boolean (True/False) |
+| show_figure_title	| Flag to decide if the title would be shown	| Boolean (True/False) |
+| font_size	| Font size of the title	| Numeric (Float) |
+| font_color	| Colour of the main title	| Text (html colour code) |
+| show_bold	| Flag to decide if the title would be shown bold	| Boolean (True/False) |
+| horizontal_alignment	| Alignment of the title	| Text (center/left/right) |
 
 **2.3.2	Plot and Its Properties**
 
@@ -248,36 +249,37 @@ Legend options are available in the main (graph-design) window (Figure 2.2). In 
 
 Table 2.2: Summary of Plot Properties
 
-Property	| Description	Data | Type and Value
-plot_title	| Title of the plot	| Text
-plot_position	| Plot position in the plot grid. The dimension of the grid is determined by the plot orientation variable in figure property	| Numeric (Integer); starts from 1 to the max. no. of plots allowed
-show_x_label	| Flag determines if the x-axis label would be shown	| Boolean (True/False)
-show_y_label	| Flag determines if the y-axis label would be shown	| Boolean (True/False)
-x_label	| x-axis label	| Text
-y_label	| y-axis label	| Text
-show_x_ticks	| Flag determines if the tick marks (not the tick texts or tick labels) would be shown	| Boolean (True/False)
-x_ticks_rotation	| Rotation of ticks (i.e. tick labels) in degree	| Numeric (Float)
-show_legend	| Flag determines if the legend would be shown	| Boolean (True/False)
-legend_vertical_position	| Vertical position (in the plot area) where the legend will be drawn	| Numeric (Integer); -1: Below, 0: Middle, +1: Top
-legend_horizontal_position	| Horizontal position (in the plot area) where the legend will be drawn	| Numeric (Integer); -1: Left, 0: Middle, +1: Right
-edit_feature	| Plot display options (OBJECT SPECIFIER)	| 
-backgroundColor	| Background colour of the drawing area	| Text (html colour code)
-x_lim_max	| x-axis max limit or the end point	| Numeric (Float)
-x_lim_min	| x-axis min limit or starting point	| Numeric (Float)
-y_lim_max	| y-axis max limit	| Numeric (Float)
-y_lim_min	| y-axis min limit	| Numeric (Float)
-x_axis_major_interval	| Major grid interval of x-axis 	| Numeric (Float)
-x_axis_minor_interval	| Minor grid interval of x-axis	| Numeric (Float)
-y_axis_major_interval	| Major grid interval of y-axis	| Numeric (Float)
-y_axis_minor_interval	| Minor grid interval of y-axis	| Numeric (Float)
-grid_show	| Flag determines if the Grid-lines would be shown	| Boolean (True/False)
-grid_axis_option	| Option determines grid-lines on which axis would be displayed	| Text (‘x’, ‘y’, or ‘both’)
-grid_which_option	| Option determines which grid (i.e. major or minor) would be displayed	| Text (‘major’, ‘minor’, or ‘both’)
-show_plot_title	| Flag determines if the title of the plot would be displayed	| Boolean (True/False)
-title_font_size	| Font size of plot title	| Numeric (Float)
-title_font_color	| Font colour of plot title	| Text (html colour code)
-title_show_bold	| Flag determined if the plot title would be shown in bold font face	| Boolean (True/False)
-horizontal_alignment	| Horizontal alignment of the plot title	| Text (‘left’, ‘center’, or ‘right’)
+| Property | Description	| Data Type and Value |
+|--------------------------|---------------------------------------------------------------------|------------------------------|
+|plot_title	| Title of the plot	| Text|
+|plot_position	| Plot position in the plot grid. The dimension of the grid is determined by the plot orientation variable in figure property	| Numeric (Integer) starts from 1 to the max. no. of plots allowed|
+|show_x_label	| Flag determines if the x-axis label would be shown	| Boolean (True/False)|
+|show_y_label	| Flag determines if the y-axis label would be shown	| Boolean (True/False)|
+|x_label	| x-axis label	| Text|
+|y_label	| y-axis label	| Text|
+|show_x_ticks	| Flag determines if the tick marks (not the tick texts or tick labels) would be shown	| Boolean (True/False)|
+|x_ticks_rotation	| Rotation of ticks (i.e. tick labels) in degree	| Numeric (Float)|
+|show_legend	| Flag determines if the legend would be shown	| Boolean (True/False)|
+|legend_vertical_position	| Vertical position (in the plot area) where the legend will be drawn	| Numeric (Integer); -1: Below, 0: Middle, +1: Top|
+|legend_horizontal_position	| Horizontal position (in the plot area) where the legend will be drawn	| Numeric (Integer); -1: Left, 0: Middle, +1: Right|
+|edit_feature	| Plot display options (OBJECT SPECIFIER)	| |
+|backgroundColor	| Background colour of the drawing area	| Text (html colour code)|
+|x_lim_max	| x-axis max limit or the end point	| Numeric (Float)|
+|x_lim_min	| x-axis min limit or starting point	| Numeric (Float)|
+|y_lim_max	| y-axis max limit	| Numeric (Float)|
+|y_lim_min	| y-axis min limit	| Numeric (Float)|
+|x_axis_major_interval	| Major grid interval of x-axis 	| Numeric (Float)|
+|x_axis_minor_interval	| Minor grid interval of x-axis	| Numeric (Float)|
+|y_axis_major_interval	| Major grid interval of y-axis	| Numeric (Float)|
+|y_axis_minor_interval	| Minor grid interval of y-axis	| Numeric (Float)|
+|grid_show	| Flag determines if the Grid-lines would be shown	| Boolean (True/False)|
+|grid_axis_option	| Option determines grid-lines on which axis would be displayed	| Text (‘x’, ‘y’, or ‘both’)|
+|grid_which_option	| Option determines which grid (i.e. major or minor) would be displayed	| Text (‘major’, ‘minor’, or ‘both’)|
+|show_plot_title	| Flag determines if the title of the plot would be displayed	| Boolean (True/False)|
+|title_font_size	| Font size of plot title	| Numeric (Float)|
+|title_font_color	| Font colour of plot title	| Text (html colour code)|
+|title_show_bold	| Flag determined if the plot title would be shown in bold font face	| Boolean (True/False)|
+|horizontal_alignment	| Horizontal alignment of the plot title	| Text (‘left’, ‘center’, or ‘right’)|
 
 **2.3.3	Data-Series**
 
@@ -351,52 +353,121 @@ Filter condition can either be one of the following: equal, greater than, less t
 
 Table 2.3: Summary of Bar Properties
 
-Property	| Description	| Data Type and Value
-attribute_name	| Data series variable (i.e., y-axis variable)	| Array of numbers
-series_title	| Title of the series	| Text
-x_axis_variable	| x-axis variable name	| Text
-filter_variable	| Name of the filtering variable	| Text
-filter_condition	| Filter condition	| Text (‘>’, ‘<’, ‘=’, ‘>=’, ‘<=’ , ‘between’)
-filter_first_value	| Filter value	| Numeric
-filter_second_value	| Second filter value; required only the filter condition is ‘between’	| Numeric
-plotting_option	| Plotting option	| Text (‘point’, ‘bar’, ‘line’, ‘pie’)
-data_source	| (OBJECT SPECIFIER) Specifies data source	| Text (‘DataSource’)
-edit_feature	| (OBJECT SPECIFIER) Specifies plotting style of data-series 	| Text (‘LineEditFeature’, ‘PointEditFeature’, ‘BarEditFeature’, ‘PieEditFeature’)
-Data source properties: | | 
-source_type	|Flag determines if the source is a simulation output or observation data file 	| Numeric (integer); 0 = Simulation, 1 = Observation (CSV)
-model_directory	| Home directory of the model program; required if source type is 0	| Text
-initial_filename	| Model initialization filename; required if source type is 0	| Text
-output_file_type	| Model output file type; required if source type is 0	| Text
-unit_conversion_flag	| Flag determines if the unit conversion need to be applied; required if source type is 0 	| Boolean (True/False)
-data_filename_csv	| Name of the observation data file; required only if source type is 1	| Text
-Point Style Properties: | | 
-point_style	| Appearance of points	| Text (None = 'None', 'o' = 'Circle', 's' = 'Square', 'D' = 'Diamond', 'd' = 'Thin Diamond', '.' = 'Point', '*' = 'Star', '+' = 'Plus', 'p' = 'Pentagon', 'h' = 'Hexagon1', 'H' = 'Hexagon2', '8' = 'Octagon', '^' = 'Triangle Up', 'v' = 'Triangle Down', '>' = 'Triangle Left', '<' = 'Triangle Right', 0 = 'Tick Left', 1 = 'Tick Right', 2 = 'Tick Up', 3 = 'Tick Down', '|' = 'Verlicle Line') 
-face_color	| Colour of the points	| Text (html colour code)
-size	| Point size	| Numeric (integer)
-edge_color	| Edge colour of points	| Text (html colour code)
-edge_line_width	| Line width of edge	| Numeric (integer)
-Line Style Properties: | | 
-style	| Line style	| Text ('-' = 'Solid', '--' = 'Dashed', '.' = 'Dotted', '-. = 'Dash Dot'',  '' = 'No Line')
-color	| Colour of the line	| Text (html colour code)
-line_width	| Width of line	| Numeric (integer)
-show_marker	| Flag determines if the marker on the line will be shown	| Boolean (True/False)
-marker	| Style of marker	--same as point style-- | 
-marker_size	| Size of marker	| Numeric (integer)
-Bar Style Properties: | |
-color	| Bar Colour	| Text (html colour code)
-edge_color	| Colour of bar edge	| Text (html colour code)
-line_style	| Style of edge	--same as line style-- | 
-line_width	| Width of edge	| Numeric (integer)
-hatch	| Hatch Style	| Text ('' = 'None', '/' = '////', '\\' = '\\\\', '|' = '|||', '-' = '----', '+' = '+++', 'x' = 'xxxx', 'o' = 'oooo', 'O' = 'OOOO', '.' = '....', '*' = '****')
-Pie Style Properties: | | 
-color|		| Text (html colour code)
-start_angle	| Starting angle	| Numeric (decimal degree)
-shadow	| Flag determines if the pies would have shadow	| Boolean (True/False)
-radius	| Pie radius	| Numeric (decimal)
-explode	| Flag determines if any pie would explode	| Boolean (True/False)
-explode_maximum	| Maximum exploding distance	| Numeric (decimal)
-label_distance	| Distance of pie labels 	| Numeric (decimal)
-show_value_label	| Flag determines if the labels would be shown	| Boolean (True/False)
+| Property | Description	| Data Type and Value |
+|--------------------------|---------------------------------------------------------------------|------------------------------|
+|attribute_name	| Data series variable (i.e., y-axis variable)	| Array of numbers|
+|series_title	| Title of the series	| Text|
+|x_axis_variable	| x-axis variable name	| Text|
+|filter_variable	| Name of the filtering variable	| Text|
+|filter_condition	| Filter condition	| Text (‘>’, ‘<’, ‘=’, ‘>=’, ‘<=’ , ‘between’)|
+|filter_first_value	| Filter value	| Numeric|
+|filter_second_value	| Second filter value; required only the filter condition is ‘between’	| Numeric|
+|plotting_option	| Plotting option	| Text (‘point’, ‘bar’, ‘line’, ‘pie’)|
+|data_source	| (OBJECT SPECIFIER) Specifies data source	| Text (‘DataSource’)|
+|edit_feature	| (OBJECT SPECIFIER) Specifies plotting style of data-series 	| Text (‘LineEditFeature’, ‘PointEditFeature’, ‘BarEditFeature’, ‘PieEditFeature’)|
+|Data source properties: | | |
+|source_type	|Flag determines if the source is a simulation output or observation data file 	| Numeric (integer); 0 = Simulation, 1 = Observation (CSV)|
+|model_directory	| Home directory of the model program; required if source type is 0	| Text|
+|initial_filename	| Model initialization filename; required if source type is 0	| Text|
+|output_file_type	| Model output file type; required if source type is 0	| Text|
+|unit_conversion_flag	| Flag determines if the unit conversion need to be applied; required if source type is 0 	| Boolean (True/False)|
+|data_filename_csv	| Name of the observation data file; required only if source type is 1	| Text|
+|Point Style Properties: | | |
+|point_style	| Appearance of points	| Text (None = 'None', 'o' = 'Circle', 's' = 'Square', 'D' = 'Diamond', 'd' = 'Thin Diamond', '.' = 'Point', '*' = 'Star', '+' = 'Plus', 'p' = 'Pentagon', 'h' = 'Hexagon1', 'H' = 'Hexagon2', '8' = 'Octagon', '^' = 'Triangle Up', 'v' = 'Triangle Down', '>' = 'Triangle Left', '<' = 'Triangle Right', 0 = 'Tick Left', 1 = 'Tick Right', 2 = 'Tick Up', 3 = 'Tick Down', '|' = 'Verlicle Line') |
+|face_color	| Colour of the points	| Text (html colour code)|
+|size	| Point size	| Numeric (integer)|
+|edge_color	| Edge colour of points	| Text (html colour code)|
+|edge_line_width	| Line width of edge	| Numeric (integer)|
+|Line Style Properties: | | |
+|style	| Line style	| Text ('-' = 'Solid', '--' = 'Dashed', '.' = 'Dotted', '-. = 'Dash Dot'',  '' = 'No Line')|
+|color	| Colour of the line	| Text (html colour code)|
+|line_width	| Width of line	| Numeric (integer)|
+|show_marker	| Flag determines if the marker on the line will be shown	| Boolean (True/False)|
+|marker	| Style of marker	--same as point style-- | |
+|marker_size	| Size of marker	| Numeric (integer)|
+|Bar Style Properties: | ||
+|color	| Bar Colour	| Text (html colour code)|
+|edge_color	| Colour of bar edge	| Text (html colour code)|
+|line_style	| Style of edge	--same as line style-- | |
+|line_width	| Width of edge	| Numeric (integer)|
+|hatch	| Hatch Style	| Text ('' = 'None', '/' = '////', '\\' = '\\\\', '|' = '|||', '-' = '----', '+' = '+++', 'x' = 'xxxx', 'o' = 'oooo', 'O' = 'OOOO', '.' = '....', '*' = '****')|
+|Pie Style Properties: | | 
+|color|		| Text (html colour code)|
+|start_angle	| Starting angle	| Numeric (decimal degree)|
+|shadow	| Flag determines if the pies would have shadow	| Boolean (True/False)|
+|radius	| Pie radius	| Numeric (decimal)|
+|explode	| Flag determines if any pie would explode	| Boolean (True/False)|
+|explode_maximum	| Maximum exploding distance	| Numeric (decimal)|
+|label_distance	| Distance of pie labels 	| Numeric (decimal)|
+|show_value_label	| Flag determines if the labels would be shown	| Boolean (True/False)|
+
+The graph objects can be opened, modified and created using any text editor. However, special format must be followed during creating or modifying a graph with text editor. First, each object start with a ‘@@’ (i.e., a double at sign) following the type of the object or the property name. The object definition ends with a single at sign (i.e., ‘@’) following the starting keyword. Following table shows the list of objects and their start and end keywords.
+
+Table 2.4: List of Object Identifiers
+|Object	|Starting Keyword	|Ending Keyword|
+|-----------------|----------------------------|-------------------------------|
+|Graph	|@@model_graph	|@model_graph|
+|Plot	|@@plot	|@plot|
+|Series	|@@series	|@series|
+|Data Source	|@@data_source	|@data_source|
+|Display Option	|@@edit_feature	|@edit_feature|
+
+Secondly, in case of dynamic objects, like display option or edit_feature object which can hold different specialized object, the type of the object be specified along with object identifying keyword; and the type is specified mentioning the type name after an equal sign (i.e., ‘=’). Table 2.5 shows assignment of different child objects using the same object identifier keywords.
+
+Table 2.5: Object Specification with Type Assignment
+|Object	|Object specifier with type|
+|-----------------|-----------------------------------------------------------|
+|Graph Display Option	|@@edit_feature = FigureEditFeature|
+|Plot Display Option	|@@edit_feature = PlotEditFeature|
+|Point Series Display Option	|@@edit_feature = PointEditFeature|
+|Line Series Display Option	|@@edit_feature = LineEditFeature|
+|Bar Series Display Option	|@@edit_feature = BarEditFeature|
+|Pie Display Option	|@@edit_feature = PieEditFeature|
+
+Thirdly, the object definitions follows a cascading styles. That is, inner object must be defined within the immediate parent object. The following box shows an example of cascading object definition where a graph has two plots and each plot has different numbers (1 and 2 respectively) of data series.
+
+```
+@@model_graph
+…
+@@plot
+…
+…
+@@series
+…
+…
+@series
+@plot
+@@plot
+…
+@@series
+…
+@series
+@@series
+…
+@series
+@plot
+@model_graph
+```
+
+Example of Cascading Object Definition
+
+Fourthly, the properties of an object must be defined using the property keyword and the value of a property must be provided after the equal sign (i.e., ‘=’) after the keyword. The value and the keyword must be on the same text line. No break (i.e., new line or carriage return) is allowed between keyword and value. The keywords must comply with the property names mentioned in Table 2.1, Table 2.2, and Table 2.3.
+
+Finally, property values must not encoded with single or double quotation marks or signs.
+
+**2.4	Graph Preview**
+
+As highlighted in the fourth segment of the main window (see Figure 2.2), the preview of the graph will be shown every time the graph is updated. If the preview is not shown, the ‘Refresh Preview’ action button can be pressed. When the ‘Refresh Preview’ button is pressed, the application will try update the preview of the graph.
+
+However, in this version of user interface, the graph preview will only be shown if the data is obtained in the source location as defined in the data source object definition. Usually during the design phase data is always available and thus the preview would be displayed. On the other hand, when a graph is loaded/opened from a saved template, the preview will not be displayed if data is not available. 
+
+**2.5	Saving and Opening Graph Template**
+
+The graph objects can be save as templates and can be used as readily available graphs. The templates can be modified later at another point of time. Pressing on the action buttons ‘Save template’ and ‘Open Template’ in the fifth highlighted area of the main window as shown in Figure 2.2 the graph can be saved as template or a graph can be loaded from a template. Please note that the templates are saved with ‘gtm’ file extension, but the ‘gtm’ files can be opened and modified with any text editor.
+
+**Part-Three: Model Calibration**
+
+(to be added soon!!)
 
 
 
