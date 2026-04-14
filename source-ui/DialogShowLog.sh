@@ -1,0 +1,1 @@
+pyuic4 -x DialogShowLog.ui -o DialogShowLog.py

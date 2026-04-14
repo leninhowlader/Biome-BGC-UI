@@ -1,0 +1,1 @@
+pyuic4 -x FormEvaluatorConfiguration.ui -o FormEvaluatorConfiguration.py

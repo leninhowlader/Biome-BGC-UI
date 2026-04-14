@@ -1,0 +1,20 @@
+40,cf_site.soil1_hr,heterotr. respir. from soil-1 pool
+41,cf_site.soil1c_to_soil2c,cf_site_soil1c_to_soil2c
+42,cf_site.soil2_hr,heterotr. respir. from soil-2 pool
+43,cf_site.soil2c_to_soil3c,cf_site_soil2c_to_soil3c
+44,cf_site.soil3_hr,heterotr. respir. from soil-3 pool
+45,cf_site.soil3c_to_soil4c,cf_site_soil3c_to_soil4c
+46,cf_site.soil4_hr,heterotr. respir. from soil-4 pool
+88,sum->daily_gpp_tot,site spec. GPP
+89,sum->daily_npp_tot,site spec. NPP
+90,sum->daily_nep_tot,site spec. NEP
+91,sum->daily_nee_tot,site spec. NEE
+92,sum->daily_mr_tot,site spec. maintenance respiration
+93,sum->daily_gr_tot,site spec. growth respiration
+94,sum->daily_hr_tot,site spec. heterotrophic respiration
+95,sum->daily_fr_hr_tot,site spec. fine root heterotrophic respiration
+96,sum->daily_fire_tot,site spec. fire losses
+97,sum->daily_belowgr_mr_tot,site spec. root maintenance respiration
+98,sum->daily_belowgr_gr_tot,site spec. root growth respiration
+99,sum->daily_belowgr_resp_tot,site spec. root respiration
+100,sum->daily_frootlit_loss_soilc_tot,site spec. fine root litter flux to soil 

@@ -1,0 +1,16 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="bgc.ico">icon/bgc.ico</file>
+	<file alias="ini.ico">icon/ini.ico</file>
+	<file alias="veg.ico">icon/veg.ico</file>
+	<file alias="epc.ico">icon/epc.ico</file>
+	<file alias="gis.ico">icon/gis.ico</file>
+	<file alias="soil.ico">icon/soil.ico</file>
+	<file alias="run.ico">icon/run.ico</file>
+	<file alias="output.ico">icon/output.ico</file>
+	<file alias="cgrp.ico">icon/cgrp.ico</file>
+	<file alias="vgrp.ico">icon/vgrp.ico</file>
+	<file alias="exit.ico">icon/exit.ico</file>
+	<file alias="delete.ico">icon/delete.ico</file>
+</qresource>
+</RCC>

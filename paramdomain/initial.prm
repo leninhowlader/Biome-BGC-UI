@@ -1,0 +1,27 @@
+0	GIS File Name:
+1	Veg File Name:
+2	Restart Read Flag:0 = Don't read restart file,1 = Read restart file
+3	Restart Write Flag:0 = Don't write restart file,1 = Write restart file
+4	Restart Metyear Use Flag:0 = Reset metyear,1 = Use restart metyear
+5	Restart Read File Name:
+6	Restart Write File Name:
+7	No of Sim Year:
+8	Sim Start Year:
+9	Sim Spinup Flag:0 = normal simulation,1 = spinup simulation
+10	No of Spinup Year:
+11	Tmax Offset:
+12	Tmin Offset:
+13	Precipitation Multiplier:
+14	VPD Multiplier:
+15	Radiation Multiplier:
+16	CO2 Control Flag:0 = constant,1 = vary with file
+17	Air Constant Carbon:
+18	Carbon File:
+19	Nitrogen Depo Option Flag:0 = constant,1 = vary with file named in gis-file
+20	Industrial Ref. Year:
+21	Output File Prefix:
+22	Daily Output Flag:0 = no daily output,1 = write daily output,2 = depth+correspondig vars,3 = var+corresponding depth,4 = both depth and var
+23	Monthly Average Flag:0 = no monthly avg,1 = monthly avg of daily variables
+24	Annual Average Flag:0 = no annual avg,1 = annual avg of daily variables
+25	Annual Output Flag:0 = no annual output,1 = write annual output,2 = depth+correspondig vars,3 = var+corresponding depth,4 = both depth and var
+26	Display Flag:0 = Don't Show,1 = Show

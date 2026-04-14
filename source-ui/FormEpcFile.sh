@@ -1,0 +1,1 @@
+pyuic4 -x FormEpcFile.ui -o FormEpcFile.py

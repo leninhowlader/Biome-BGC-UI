@@ -1,0 +1,220 @@
+70,cf->cf_list[vegt].m_leafc_to_litr1c,mortality flux leaf to litter-1 C
+71,cf->cf_list[vegt].m_leafc_to_litr2c,mortality flux leaf to litter-2 C
+72,cf->cf_list[vegt].m_leafc_to_litr3c,mortality flux leaf to litter-3 C
+73,cf->cf_list[vegt].m_leafc_to_litr4c,mortality flux leaf to litter-4 C
+74,cf->cf_list[vegt].m_frootc_to_litr1c,mortality flux fine root to litter-1 C
+75,cf->cf_list[vegt].m_frootc_to_litr2c,mortality flux fine root to litter-2 C
+76,cf->cf_list[vegt].m_frootc_to_litr3c,mortality flux fine root to litter-3 C
+77,cf->cf_list[vegt].m_frootc_to_litr4c,mortality flux fine root to litter-4 C
+78,cf->cf_list[vegt].m_leafc_storage_to_litr1c,mortality flux leaf storage pool to litter-1 C
+79,cf->cf_list[vegt].m_frootc_storage_to_litr1c,mortality flux fine root storage pool to litter-1 C
+80,cf->cf_list[vegt].m_livestemc_storage_to_litr1c,mortality flux live stem storage pool to litter-1 C
+81,cf->cf_list[vegt].m_deadstemc_storage_to_litr1c,mortality flux dead stem storage pool to litter-1 C
+82,cf->cf_list[vegt].m_livecrootc_storage_to_litr1c,mortality flux live coarse root storage pool to litter-1 C
+83,cf->cf_list[vegt].m_deadcrootc_storage_to_litr1c,mortality flux dead coarse root storage pool to litter-1 C
+84,cf->cf_list[vegt].m_leafc_transfer_to_litr1c,mortality flux leaf transfer pool to litter-1 C
+85,cf->cf_list[vegt].m_frootc_transfer_to_litr1c,mortality flux fine root transfer pool to litter-1 C
+86,cf->cf_list[vegt].m_livestemc_transfer_to_litr1c,mortality flux live stem transfer pool to litter-1 C
+87,cf->cf_list[vegt].m_deadstemc_transfer_to_litr1c,mortality flux dead stem transfer pool to litter-1 C
+88,cf->cf_list[vegt].m_livecrootc_transfer_to_litr1c,mortality flux live coarse root transfer pool to litter-1 C
+89,cf->cf_list[vegt].m_deadcrootc_transfer_to_litr1c,mortality flux dead coarse root transfer pool to litter-1 C
+90,cf->cf_list[vegt].m_livestemc_to_litrc,mortality flux live stem to litter
+91,cf->cf_list[vegt].m_deadstemc_to_cwdc,mortality flux dead stem to coarse woody debris
+92,cf->cf_list[vegt].m_deadstemc_to_litrc,mortality flux dead stem to litter
+93,cf->cf_list[vegt].m_livecrootc_to_litrc,mortality flux live coarse root to litter
+94,cf->cf_list[vegt].m_deadcrootc_to_cwdc,mortality flux dead coarse root to coarse woody debris
+95,cf->cf_list[vegt].m_deadcrootc_to_litrc,mortality flux dead coarse root to coarse woody debris
+96,cf->cf_list[vegt].m_gresp_storage_to_litr1c,mortality flux growth respiration storage pool to litter-1 C
+97,cf->cf_list[vegt].m_gresp_transfer_to_litr1c,mortality flux growth respiration transfer pool to litter-1 C
+98,cf->cf_list[vegt].h_livestemc_to_stemc_export,harvest flux live stem to exported wood
+99,cf->cf_list[vegt].h_deadstemc_to_stemc_export,harvest flux dead stem to exported wood
+100,cf->cf_list[vegt].h_livestemc_to_litrc,harvest flux live stem to litter
+101,cf->cf_list[vegt].h_deadstemc_to_cwdc,harvest flux dead stem to coarse woody debris
+102,cf->cf_list[vegt].h_deadstemc_to_litrc,harvest flux dead stem to litter
+103,cf->cf_list[vegt].planting_input_c,planting C input
+104,cf->cf_list[vegt].h_leafc_to_litr1c,harvest flux leaf to litter-1 C
+105,cf->cf_list[vegt].h_leafc_to_litr2c,harvest flux leaf to litter-2 C
+106,cf->cf_list[vegt].h_leafc_to_litr3c,harvest flux leaf to litter-3 C
+107,cf->cf_list[vegt].h_leafc_to_litr4c,harvest flux leaf to litter-4 C
+108,cf->cf_list[vegt].h_frootc_to_litr1c,harvest flux fine root to litter-1 C
+109,cf->cf_list[vegt].h_frootc_to_litr2c,harvest flux fine root to litter-2 C
+110,cf->cf_list[vegt].h_frootc_to_litr3c,harvest flux fine root to litter-3 C
+111,cf->cf_list[vegt].h_frootc_to_litr4c,harvest flux fine root to litter-4 C
+112,cf->cf_list[vegt].h_leafc_storage_to_litr1c,harvest flux leaf storage pool to litter-1 C
+113,cf->cf_list[vegt].h_frootc_storage_to_litr1c,harvest flux fine root storage pool to litter-1 C
+114,cf->cf_list[vegt].h_livestemc_storage_to_litr1c,harvest flux live stem storage pool to litter-1 C
+115,cf->cf_list[vegt].h_deadstemc_storage_to_litr1c,harvest flux dead stem storage pool to litter-1 C
+116,cf->cf_list[vegt].h_livecrootc_storage_to_litr1c,harvest flux live coarse root storage pool to litter-1 C
+117,cf->cf_list[vegt].h_deadcrootc_storage_to_litr1c,harvest flux dead coarse root storage pool to litter-1 C
+118,cf->cf_list[vegt].h_leafc_transfer_to_litr1c,harvest flux leaf transfer pool to litter-1 C
+119,cf->cf_list[vegt].h_frootc_transfer_to_litr1c,harvest flux fine root transfer pool to litter-1 C
+120,cf->cf_list[vegt].h_livestemc_transfer_to_litr1c,harvest flux live stem transfer pool to litter-1 C
+121,cf->cf_list[vegt].h_deadstemc_transfer_to_litr1c,harvest flux dead stem transfer pool to litter-1 C
+122,cf->cf_list[vegt].h_livecrootc_transfer_to_litr1c,harvest flux live coarse root transfer pool to litter-1 C
+123,cf->cf_list[vegt].h_deadcrootc_transfer_to_litr1c,harvest flux dead coarse root transfer pool to litter-1 C
+124,cf->cf_list[vegt].h_livecrootc_to_litrc,harvest flux live coarse root to litter
+125,cf->cf_list[vegt].h_deadcrootc_to_cwdc,harvest flux dead coarse root to coarse woody debris
+126,cf->cf_list[vegt].h_deadcrootc_to_litrc,harvest flux dead coarse root to litter
+127,cf->cf_list[vegt].h_gresp_storage_to_litr1c,harvest flux growth respiration storage pool to litter-1 C
+128,cf->cf_list[vegt].h_gresp_transfer_to_litr1c,harvest flux growth respiration transfer pool to litter-1 C
+129,cf->cf_list[vegt].harvestc_to_stemc_export,harvest flux to exported wood
+130,cf->cf_list[vegt].harvestc_to_cwdc,harvest flux to coarse woody debris
+131,cf->cf_list[vegt].harvestc_l_fr_to_litrc,harvest flux to litter
+132,cf->cf_list[vegt].harvestc_to_l_litrc,harvest flux leaf+stem to litter
+133,cf->cf_list[vegt].harvestc_to_fr_litrc,harvest flux roots to litter
+134,cf->cf_list[vegt].harvestc_stem_to_litrcwdc,harvest flux stem to litter+cwdc
+135,cf->cf_list[vegt].harvestc_stem_to_litrc,harvest flux stem to litter
+136,cf->cf_list[vegt].m_leafc_to_fire,mortality flux leaf to fire
+137,cf->cf_list[vegt].m_frootc_to_fire,mortality flux fine root to fire
+138,cf->cf_list[vegt].m_leafc_storage_to_fire,m_leafc_storage_to_fire
+139,cf->cf_list[vegt].m_frootc_storage_to_fire,m_frootc_storage_to_fire
+140,cf->cf_list[vegt].m_livestemc_storage_to_fire,m_livestemc_storage_to_fire
+141,cf->cf_list[vegt].m_deadstemc_storage_to_fire,m_deadstemc_storage_to_fire
+142,cf->cf_list[vegt].m_livecrootc_storage_to_fire,m_livecrootc_storage_to_fire
+143,cf->cf_list[vegt].m_deadcrootc_storage_to_fire,m_deadcrootc_storage_to_fire
+144,cf->cf_list[vegt].m_leafc_transfer_to_fire,m_leafc_transfer_to_fire
+145,cf->cf_list[vegt].m_frootc_transfer_to_fire,m_frootc_transfer_to_fire
+146,cf->cf_list[vegt].m_livestemc_transfer_to_fire,m_livestemc_transfer_to_fire
+147,cf->cf_list[vegt].m_deadstemc_transfer_to_fire,m_deadstemc_transfer_to_fire
+148,cf->cf_list[vegt].m_livecrootc_transfer_to_fire,m_livecrootc_transfer_to_fire
+149,cf->cf_list[vegt].m_deadcrootc_transfer_to_fire,m_deadcrootc_transfer_to_fire
+150,cf->cf_list[vegt].m_livestemc_to_fire,m_livestemc_to_fire
+151,cf->cf_list[vegt].m_deadstemc_to_fire,m_deadstemc_to_fire
+152,cf->cf_list[vegt].m_livecrootc_to_fire,m_livecrootc_to_fire
+153,cf->cf_list[vegt].m_deadcrootc_to_fire,m_deadcrootc_to_fire
+154,cf->cf_list[vegt].m_gresp_storage_to_fire,m_gresp_storage_to_fire
+155,cf->cf_list[vegt].m_gresp_transfer_to_fire,m_gresp_transfer_to_fire
+156,cf->cf_list[vegt].m_l_litr1c_to_fire,m_l_litr1c_to_fire
+157,cf->cf_list[vegt].m_l_litr2c_to_fire,m_l_litr2c_to_fire
+158,cf->cf_list[vegt].m_l_litr3c_to_fire,m_l_litr3c_to_fire
+159,cf->cf_list[vegt].m_l_litr4c_to_fire,m_l_litr4c_to_fire
+160,cf->cf_list[vegt].m_fr_litr1c_to_fire,m_fr_litr1c_to_fire
+161,cf->cf_list[vegt].m_fr_litr2c_to_fire,m_fr_litr2c_to_fire
+162,cf->cf_list[vegt].m_fr_litr3c_to_fire,m_fr_litr3c_to_fire
+163,cf->cf_list[vegt].m_fr_litr4c_to_fire,m_fr_litr4c_to_fire
+164,cf->cf_list[vegt].m_st_cwdc_to_fire,m_st_cwdc_to_fire
+165,cf->cf_list[vegt].m_r_cwdc_to_fire,m_r_cwdc_to_fire
+166,cf->cf_list[vegt].leafc_transfer_to_leafc,leafc_transfer_to_leafc
+167,cf->cf_list[vegt].frootc_transfer_to_frootc,frootc_transfer_to_frootc
+168,cf->cf_list[vegt].livestemc_transfer_to_livestemc,livestemc_transfer_to_livestemc
+169,cf->cf_list[vegt].deadstemc_transfer_to_deadstemc,deadstemc_transfer_to_deadstemc
+170,cf->cf_list[vegt].livecrootc_transfer_to_livecrootc,livecrootc_transfer_to_livecrootc
+171,cf->cf_list[vegt].deadcrootc_transfer_to_deadcrootc,deadcrootc_transfer_to_deadcrootc
+172,cf->cf_list[vegt].leafc_to_litr1c,leafc_to_litr1c
+173,cf->cf_list[vegt].leafc_to_litr2c,leafc_to_litr2c
+174,cf->cf_list[vegt].leafc_to_litr3c,leafc_to_litr3c
+175,cf->cf_list[vegt].leafc_to_litr4c,leafc_to_litr4c
+176,cf->cf_list[vegt].frootc_to_litr1c,frootc_to_litr1c
+177,cf->cf_list[vegt].frootc_to_litr2c,frootc_to_litr2c
+178,cf->cf_list[vegt].frootc_to_litr3c,frootc_to_litr3c
+179,cf->cf_list[vegt].frootc_to_litr4c,frootc_to_litr4c
+180,cf->cf_list[vegt].lcrootc_to_litr1c,lcrootc_to_litr1c
+181,cf->cf_list[vegt].lcrootc_to_litr2c,lcrootc_to_litr2c
+182,cf->cf_list[vegt].lcrootc_to_litr3c,lcrootc_to_litr3c
+183,cf->cf_list[vegt].lcrootc_to_litr4c,lcrootc_to_litr4c
+184,cf->cf_list[vegt].frootc_to_litr4c,frootc_to_litr4c
+185,cf->cf_list[vegt].dcrootc_to_rcwdc,dcrootc_to_rcwdc
+186,cf->cf_list[vegt].dcrootc_to_litr2c,dcrootc_to_litr2c
+187,cf->cf_list[vegt].dcrootc_to_litr3c,dcrootc_to_litr3c
+188,cf->cf_list[vegt].dcrootc_to_litr4c,dcrootc_to_litr4c
+189,cf->cf_list[vegt].leaf_day_mr,daytime leaf maintenance respiration
+190,cf->cf_list[vegt].leaf_night_mr,nighttime leaf maintenance respiration
+191,cf->cf_list[vegt].froot_mr,fine root maintenance respiration
+192,cf->cf_list[vegt].livestem_mr,stem maintenance respiration
+193,cf->cf_list[vegt].livecroot_mr,coarse root maintenance respiration
+194,cf->cf_list[vegt].psnsun_to_cpool,photosynthesis of sunlit canopy
+195,cf->cf_list[vegt].psnshade_to_cpool,photosynthesis of shaded canopy
+196,cf->cf_list[vegt].st_cwdc_to_l_litr2c,st_cwdc_to_l_litr2c
+197,cf->cf_list[vegt].st_cwdc_to_l_litr3c,st_cwdc_to_l_litr3c
+198,cf->cf_list[vegt].st_cwdc_to_l_litr4c,st_cwdc_to_l_litr4c
+199,cf->cf_list[vegt].r_cwdc_to_fr_litr2c,r_cwdc_to_fr_litr2c
+200,cf->cf_list[vegt].r_cwdc_to_fr_litr3c,r_cwdc_to_fr_litr3c
+201,cf->cf_list[vegt].r_cwdc_to_fr_litr4c,r_cwdc_to_fr_litr4c
+202,cf->cf_list[vegt].l_litr1_hr,l_litr1_hr
+203,cf->cf_list[vegt].l_litr1c_to_soil1c,l_litr1c_to_soil1c
+204,cf->cf_list[vegt].l_litr2_hr,l_litr2_hr
+205,cf->cf_list[vegt].l_litr2c_to_soil2c,l_litr2c_to_soil2c
+206,cf->cf_list[vegt].l_litr3c_to_l_litr2c,l_litr3c_to_l_litr2c
+207,cf->cf_list[vegt].l_litr4_hr,l_litr4_hr
+208,cf->cf_list[vegt].l_litr4c_to_soil3c,l_litr4c_to_soil3c
+209,cf->cf_list[vegt].fr_litr1_hr,fr_litr1_hr
+210,cf->cf_list[vegt].fr_litr1c_to_soil1c,fr_litr1c_to_soil1c
+211,cf->cf_list[vegt].fr_litr2_hr,fr_litr2_hr
+212,cf->cf_list[vegt].fr_litr2c_to_soil2c,fr_litr2c_to_soil2c
+213,cf->cf_list[vegt].fr_litr3c_to_fr_litr2c,fr_litr3c_to_fr_litr2c
+214,cf->cf_list[vegt].fr_litr4_hr,fr_litr4_hr
+215,cf->cf_list[vegt].fr_litr4c_to_soil3c,fr_litr4c_to_soil3c
+216,cf->cf_list[vegt].cpool_to_leafc,cpool_to_leafc
+217,cf->cf_list[vegt].cpool_to_leafc_storage,cpool_to_leafc_storage
+218,cf->cf_list[vegt].cpool_to_frootc,cpool_to_frootc
+219,cf->cf_list[vegt].cpool_to_frootc_storage,cpool_to_frootc_storage
+220,cf->cf_list[vegt].cpool_to_livestemc,cpool_to_livestemc
+221,cf->cf_list[vegt].cpool_to_livestemc_storage,cpool_to_livestemc_storage
+222,cf->cf_list[vegt].cpool_to_deadstemc,cpool_to_deadstemc
+223,cf->cf_list[vegt].cpool_to_deadstemc_storage,cpool_to_deadstemc_storage
+224,cf->cf_list[vegt].cpool_to_livecrootc,cpool_to_livecrootc
+225,cf->cf_list[vegt].cpool_to_livecrootc_storage,cpool_to_livecrootc_storage
+226,cf->cf_list[vegt].cpool_to_deadcrootc,cpool_to_deadcrootc
+227,cf->cf_list[vegt].cpool_to_deadcrootc_storage,cpool_to_deadcrootc_storage
+228,cf->cf_list[vegt].cpool_to_gresp_storage,cpool_to_gresp_storage
+229,cf->cf_list[vegt].cpool_leaf_gr,cpool_leaf_gr
+230,cf->cf_list[vegt].cpool_leaf_storage_gr,cpool_leaf_storage_gr
+231,cf->cf_list[vegt].transfer_leaf_gr,transfer_leaf_gr
+232,cf->cf_list[vegt].cpool_froot_gr,cpool_froot_gr
+233,cf->cf_list[vegt].cpool_froot_storage_gr,cpool_froot_storage_gr
+234,cf->cf_list[vegt].transfer_froot_gr,transfer_froot_gr
+235,cf->cf_list[vegt].cpool_livestem_gr,cpool_livestem_gr
+236,cf->cf_list[vegt].cpool_livestem_storage_gr,cpool_livestem_storage_gr
+237,cf->cf_list[vegt].transfer_livestem_gr,transfer_livestem_gr
+238,cf->cf_list[vegt].cpool_deadstem_gr,cpool_deadstem_gr
+239,cf->cf_list[vegt].cpool_deadstem_storage_gr,cpool_deadstem_storage_gr
+240,cf->cf_list[vegt].transfer_deadstem_gr,transfer_deadstem_gr
+241,cf->cf_list[vegt].cpool_livecroot_gr,cpool_livecroot_gr
+242,cf->cf_list[vegt].cpool_livecroot_storage_gr,cpool_livecroot_storage_gr
+243,cf->cf_list[vegt].transfer_livecroot_gr,transfer_livecroot_gr
+244,cf->cf_list[vegt].cpool_deadcroot_gr,cpool_deadcroot_gr
+245,cf->cf_list[vegt].cpool_deadcroot_storage_gr,cpool_deadcroot_storage_gr
+246,cf->cf_list[vegt].transfer_deadcroot_gr,transfer_deadcroot_gr
+247,cf->cf_list[vegt].leafc_storage_to_leafc_transfer,leafc_storage_to_leafc_transfer
+248,cf->cf_list[vegt].frootc_storage_to_frootc_transfer,frootc_storage_to_frootc_transfer
+249,cf->cf_list[vegt].livestemc_storage_to_livestemc_transfer,livestemc_storage_to_livestemc_transfer
+250,cf->cf_list[vegt].deadstemc_storage_to_deadstemc_transfer,deadstemc_storage_to_deadstemc_transfer
+251,cf->cf_list[vegt].livecrootc_storage_to_livecrootc_transfer,livecrootc_storage_to_livecrootc_transfer
+252,cf->cf_list[vegt].deadcrootc_storage_to_deadcrootc_transfer,deadcrootc_storage_to_deadcrootc_transfer
+253,cf->cf_list[vegt].gresp_storage_to_gresp_transfer,gresp_storage_to_gresp_transfer
+254,cf->cf_list[vegt].livestemc_to_deadstemc,livestemc_to_deadstemc
+255,cf->cf_list[vegt].livecrootc_to_deadcrootc,livecrootc_to_deadcrootc
+256,cf->cf_list[vegt].harvestc_stem_tot,stem harvest C fluxes
+480,sum->summary_list[vegt].daily_gpp,GPP
+481,sum->summary_list[vegt].daily_npp,NPP
+482,sum->summary_list[vegt].daily_mr,maintenance respiration
+483,sum->summary_list[vegt].daily_gr,growth respiration
+484,sum->summary_list[vegt].daily_fr_hr,heterotrophic respiration from fine root pool
+485,sum->summary_list[vegt].daily_l_hr,heterotrophic respiration from litter pool
+486,sum->summary_list[vegt].daily_fire,fire loss
+487,sum->summary_list[vegt].daily_t_litfall_leafc,leaf litterfall from turnover
+488,sum->summary_list[vegt].daily_m_litfall_leafc,leaf litterfall from mortality
+489,sum->summary_list[vegt].daily_litfall_leafc,leaf litterfall
+490,sum->summary_list[vegt].daily_t_litfall_frootc,fine root litterfall from turnover
+491,sum->summary_list[vegt].daily_m_litfall_frootc,fine root litterfall from mortality
+492,sum->summary_list[vegt].daily_litfall_frootc,fine root litterfall
+493,sum->summary_list[vegt].daily_m_litfall_croot_litrc,coarse root litterfall to litter pool from mortality
+494,sum->summary_list[vegt].daily_m_litfall_crootc,coarse root litterfall from mortality
+495,sum->summary_list[vegt].daily_t_lcroot_litrc,live coarse root litterfall from turnover
+496,sum->summary_list[vegt].daily_t_dcroot_litrc,dead coarse root litterfall from turnover
+497,sum->summary_list[vegt].daily_litfall_croot_litrc,coarse root litterfall to litter pool
+498,sum->summary_list[vegt].daily_litfall_crootc,coarse root litterfall
+499,sum->summary_list[vegt].daily_litfall_stem_litrc,stem litterfall to litter pool
+500,sum->summary_list[vegt].daily_litfall_stemc,stem litterfall
+501,sum->summary_list[vegt].daily_abovegr_litfall_litrc,aboveground litterfall to litter pool
+502,sum->summary_list[vegt].daily_belowgr_litfall_litrc,belowground litterfall to litter pool
+503,sum->summary_list[vegt].daily_tot_litfallc,total litterfall
+504,sum->summary_list[vegt].daily_growth_leafc,leaf growth
+505,sum->summary_list[vegt].daily_growth_frootc,fine root growth
+506,sum->summary_list[vegt].daily_growth_crootc,coarse root growth
+507,sum->summary_list[vegt].daily_growth_stemc_g,C allocation to stem
+508,sum->summary_list[vegt].daily_growth_stemc_n,stem growth
+509,sum->summary_list[vegt].daily_belowgr_mr,root maintenance respiration
+510,sum->summary_list[vegt].daily_belowgr_gr,root growth respiration
+511,sum->summary_list[vegt].daily_belowgr_resp,root respiration
+512,sum->summary_list[vegt].daily_frootlit_loss_soilc,fine root litter transfer to soil

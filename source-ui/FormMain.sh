@@ -1,0 +1,1 @@
+pyuic4 -x FormMain.ui -o FormMain.py

@@ -1,0 +1,7 @@
+185,epv_t_scalar,decomp. temperature scalar
+186,epv_w_scalar,decomp. water scalar
+187,epv_sd_scalar,decomp. soil depth scalar
+188,epv_rate_scalar,decomp. combined scalar
+189,epv_kfrag_st_act,decomp. actual stem defragmentation rate
+190,epv_kfrag_r_act,decomp. actual root defragmentation rate
+191,epv_fpi,fraction of potential immobilization

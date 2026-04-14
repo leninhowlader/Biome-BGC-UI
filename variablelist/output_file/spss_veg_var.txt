@@ -1,0 +1,604 @@
+varId	varName	varTitle	varClass	dUnit	mUnit	aUnit	vLen
+0	metvar_vegt_swabs	canopy absorbed shortwave flux	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+1	metvar_vegt_swtrans	transmitted shortwave flux	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+2	metvar_vegt_swabs_per_plaisun	swabs per unit sunlit proj LAI	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+3	metvar_vegt_swabs_per_plaishade	swabs per unit shaded proj LAI	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+4	metvar_vegt_ppfd_per_plaisun	ppfd per unit sunlit proj LAI	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+5	metvar_vegt_ppfd_per_plaishade	ppfd per unit shaded proj LAI	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+6	metvar_vegt_parabs	PAR absorbed by canopy	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+7	metvar_vegt_partrans	PAR not absorbed by canopy	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+8	metvar_vegt_swabs_cov	canopy absorbed shortwave flux coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+9	metvar_vegt_swtrans_cov	transmitted shortwave flux coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+10	cs_vegt_leaf	leaf C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+11	cs_vegt_leaf_storage	leaf storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+12	cs_vegt_leaf_transfer	leaf transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+13	cs_vegt_froot	fine root C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+14	cs_vegt_froot_storage	fine root storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+15	cs_vegt_froot_transfer	fine root transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+16	cs_vegt_livestem	live stem C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+17	cs_vegt_livestem_storage	live stem storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+18	cs_vegt_livestem_transfer	live stem transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+19	cs_vegt_deadstem	dead stem C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+20	cs_vegt_deadstem_storage	dead stem storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+21	cs_vegt_deadstem_transfer	dead stem transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+22	cs_vegt_livecroot	live coarse root C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+23	cs_vegt_livecroot_storage	live coarse root storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+24	cs_vegt_livecroot_transfer	live coarse root transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+25	cs_vegt_deadcroot	dead coarse root C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+26	cs_vegt_deadcroot_storage	dead coarse root storage C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+27	cs_vegt_deadcroot_transfer	dead coarse root transfer C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+28	cs_vegt_gresp_storage	growth respiration storage C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+29	cs_vegt_gresp_transfer	growth respiration transfer C pool 	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+30	cs_vegt_st_cwd	coarse stem woody debris C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+31	cs_vegt_r_cwd	coarse root woody debris C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+32	cs_vegt_l_litr1	leaf litter-1 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+33	cs_vegt_l_litr2	leaf litter-2 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+34	cs_vegt_l_litr3	leaf litter-3 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+35	cs_vegt_l_litr4	leaf litter-4 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+36	cs_vegt_fr_litr1	fine root litter-1 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+37	cs_vegt_fr_litr2	fine root litter-2 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+38	cs_vegt_fr_litr3	fine root litter-3 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+39	cs_vegt_fr_litr4	fine root litter-4 C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+40	cs_vegt_cpool	temp. photosynth. C pool 	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+41	cs_vegt_cum_psnsun	cum. gross PSN from sunlit canopy	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+42	cs_vegt_cum_psnshade	cum. gross PSN from shaded canopy	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+43	cs_vegt_cum_leaf_mr	cum. leaf maintenance respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+44	cs_vegt_cum_leaf_gr	cum. leaf growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+45	cs_vegt_cum_froot_mr	cum. fine root maintenance respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+46	cs_vegt_cum_froot_gr	cum. fine root growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+47	cs_vegt_cum_livestem_mr	cum. live stem maintenance respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+48	cs_vegt_cum_livestem_gr	cum. live stem growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+49	cs_vegt_cum_deadstem_gr	cum. dead stem growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+50	cs_vegt_cum_livecroot_mr	cum. live coarse root maintenance respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+51	cs_vegt_cum_livecroot_gr	cum. live coarse root growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+52	cs_vegt_cum_deadcroot_gr	cum. dead coarse root growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+53	cs_vegt_cum_litr1_hr	cum. heterotr. respriation from litter-1 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+54	cs_vegt_cum_litr2_hr	cum. heterotr. respriation from litter-2 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+55	cs_vegt_cum_litr4_hr	cum. heterotr. respriation from litter-4 C -pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+56	cs_vegt_cum_fire	cum. fire losses	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+57	cs_vegt_cum_stem_export	cum. exported wood C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+58	cs_vegt_cum_planting_input	cum. planting C input	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+59	cs_vegt_cum_cwd_stem_harvest	cum. flux from harvested stem C to cwd C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+60	cs_vegt_cum_litr_stem_harvest	cum. flux from harvested stem C to litter C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+61	cs_vegt_cum_harvest_stem_tot	cum. stem harvest C fluxes	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+70	cf_vegt_m_leaf_to_litr1	mortality flux leaf to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+71	cf_vegt_m_leaf_to_litr2	mortality flux leaf to litter-2 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+72	cf_vegt_m_leaf_to_litr3	mortality flux leaf to litter-3 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+73	cf_vegt_m_leaf_to_litr4	mortality flux leaf to litter-4 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+74	cf_vegt_m_froot_to_litr1	mortality flux fine root to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+75	cf_vegt_m_froot_to_litr2	mortality flux fine root to litter-2 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+76	cf_vegt_m_froot_to_litr3	mortality flux fine root to litter-3 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+77	cf_vegt_m_froot_to_litr4	mortality flux fine root to litter-4 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+78	cf_vegt_m_leaf_storage_to_litr1	mortality flux leaf storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+79	cf_vegt_m_froot_storage_to_litr1	mortality flux fine root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+80	cf_vegt_m_livestem_storage_to_litr1	mortality flux live stem storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+81	cf_vegt_m_deadstem_storage_to_litr1	mortality flux dead stem storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+82	cf_vegt_m_livecroot_storage_to_litr1	mortality flux live coarse root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+83	cf_vegt_m_deadcroot_storage_to_litr1	mortality flux dead coarse root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+84	cf_vegt_m_leaf_transfer_to_litr1	mortality flux leaf transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+85	cf_vegt_m_froot_transfer_to_litr1	mortality flux fine root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+86	cf_vegt_m_livestem_transfer_to_litr1	mortality flux live stem transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+87	cf_vegt_m_deadstem_transfer_to_litr1	mortality flux dead stem transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+88	cf_vegt_m_livecroot_transfer_to_litr1	mortality flux live coarse root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+89	cf_vegt_m_deadcroot_transfer_to_litr1	mortality flux dead coarse root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+90	cf_vegt_m_livestem_to_litr	mortality flux live stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+91	cf_vegt_m_deadstem_to_cwd	mortality flux dead stem to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+92	cf_vegt_m_deadstem_to_litr	mortality flux dead stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+93	cf_vegt_m_livecroot_to_litr	mortality flux live coarse root to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+94	cf_vegt_m_deadcroot_to_cwd	mortality flux dead coarse root to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+95	cf_vegt_m_deadcroot_to_litr	mortality flux dead coarse root to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+96	cf_vegt_m_gresp_storage_to_litr1	mortality flux growth respiration storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+97	cf_vegt_m_gresp_transfer_to_litr1	mortality flux growth respiration transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+98	cf_vegt_h_livestem_to_stem_export	harvest flux live stem to exported wood	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+99	cf_vegt_h_deadstem_to_stem_export	harvest flux dead stem to exported wood	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+100	cf_vegt_h_livestem_to_litr	harvest flux live stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+101	cf_vegt_h_deadstem_to_cwd	harvest flux dead stem to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+102	cf_vegt_h_deadstem_to_litr	harvest flux dead stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+103	cf_vegt_planting_input	planting C input	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+104	cf_vegt_h_leaf_to_litr1	harvest flux leaf to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+105	cf_vegt_h_leaf_to_litr2	harvest flux leaf to litter-2 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+106	cf_vegt_h_leaf_to_litr3	harvest flux leaf to litter-3 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+107	cf_vegt_h_leaf_to_litr4	harvest flux leaf to litter-4 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+108	cf_vegt_h_froot_to_litr1	harvest flux fine root to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+109	cf_vegt_h_froot_to_litr2	harvest flux fine root to litter-2 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+110	cf_vegt_h_froot_to_litr3	harvest flux fine root to litter-3 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+111	cf_vegt_h_froot_to_litr4	harvest flux fine root to litter-4 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+112	cf_vegt_h_leaf_storage_to_litr1	harvest flux leaf storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+113	cf_vegt_h_froot_storage_to_litr1	harvest flux fine root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+114	cf_vegt_h_livestem_storage_to_litr1	harvest flux live stem storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+115	cf_vegt_h_deadstem_storage_to_litr1	harvest flux dead stem storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+116	cf_vegt_h_livecroot_storage_to_litr1	harvest flux live coarse root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+117	cf_vegt_h_deadcroot_storage_to_litr1	harvest flux dead coarse root storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+118	cf_vegt_h_leaf_transfer_to_litr1	harvest flux leaf transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+119	cf_vegt_h_froot_transfer_to_litr1	harvest flux fine root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+120	cf_vegt_h_livestem_transfer_to_litr1	harvest flux live stem transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+121	cf_vegt_h_deadstem_transfer_to_litr1	harvest flux dead stem transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+122	cf_vegt_h_livecroot_transfer_to_litr1	harvest flux live coarse root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+123	cf_vegt_h_deadcroot_transfer_to_litr1	harvest flux dead coarse root transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+124	cf_vegt_h_livecroot_to_litr	harvest flux live coarse root to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+125	cf_vegt_h_deadcroot_to_cwd	harvest flux dead coarse root to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+126	cf_vegt_h_deadcroot_to_litr	harvest flux dead coarse root to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+127	cf_vegt_h_gresp_storage_to_litr1	harvest flux growth respiration storage pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+128	cf_vegt_h_gresp_transfer_to_litr1	harvest flux growth respiration transfer pool to litter-1 C	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+129	cf_vegt_harvest_to_stem_export	harvest flux to exported wood	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+130	cf_vegt_harvest_to_cwd	harvest flux to coarse woody debris	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+131	cf_vegt_harvest_l_fr_to_litr	harvest flux to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+132	cf_vegt_harvest_to_l_litr	harvest flux leaf+stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+133	cf_vegt_harvest_to_fr_litr	harvest flux roots to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+134	cf_vegt_harvest_stem_to_litrcwd	harvest flux stem to litter+cwdc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+135	cf_vegt_harvest_stem_to_litr	harvest flux stem to litter	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+136	cf_vegt_m_leaf_to_fire	mortality flux leaf to fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+137	cf_vegt_m_froot_to_fire	mortality flux fine root to fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+138	cf_vegt_m_leaf_storage_to_fire	m_leafc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+139	cf_vegt_m_froot_storage_to_fire	m_frootc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+140	cf_vegt_m_livestem_storage_to_fire	m_livestemc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+141	cf_vegt_m_deadstem_storage_to_fire	m_deadstemc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+142	cf_vegt_m_livecroot_storage_to_fire	m_livecrootc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+143	cf_vegt_m_deadcroot_storage_to_fire	m_deadcrootc_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+144	cf_vegt_m_leaf_transfer_to_fire	m_leafc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+145	cf_vegt_m_froot_transfer_to_fire	m_frootc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+146	cf_vegt_m_livestem_transfer_to_fire	m_livestemc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+147	cf_vegt_m_deadstem_transfer_to_fire	m_deadstemc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+148	cf_vegt_m_livecroot_transfer_to_fire	m_livecrootc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+149	cf_vegt_m_deadcroot_transfer_to_fire	m_deadcrootc_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+150	cf_vegt_m_livestem_to_fire	m_livestemc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+151	cf_vegt_m_deadstem_to_fire	m_deadstemc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+152	cf_vegt_m_livecroot_to_fire	m_livecrootc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+153	cf_vegt_m_deadcroot_to_fire	m_deadcrootc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+154	cf_vegt_m_gresp_storage_to_fire	m_gresp_storage_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+155	cf_vegt_m_gresp_transfer_to_fire	m_gresp_transfer_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+156	cf_vegt_m_l_litr1_to_fire	m_l_litr1c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+157	cf_vegt_m_l_litr2_to_fire	m_l_litr2c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+158	cf_vegt_m_l_litr3_to_fire	m_l_litr3c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+159	cf_vegt_m_l_litr4_to_fire	m_l_litr4c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+160	cf_vegt_m_fr_litr1_to_fire	m_fr_litr1c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+161	cf_vegt_m_fr_litr2_to_fire	m_fr_litr2c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+162	cf_vegt_m_fr_litr3_to_fire	m_fr_litr3c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+163	cf_vegt_m_fr_litr4_to_fire	m_fr_litr4c_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+164	cf_vegt_m_st_cwd_to_fire	m_st_cwdc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+165	cf_vegt_m_r_cwd_to_fire	m_r_cwdc_to_fire	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+166	cf_vegt_leaf_transfer_to_leaf	leafc_transfer_to_leafc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+167	cf_vegt_froot_transfer_to_froot	frootc_transfer_to_frootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+168	cf_vegt_livestem_transfer_to_livestem	livestemc_transfer_to_livestemc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+169	cf_vegt_deadstem_transfer_to_deadstem	deadstemc_transfer_to_deadstemc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+170	cf_vegt_livecroot_transfer_to_livecroot	livecrootc_transfer_to_livecrootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+171	cf_vegt_deadcroot_transfer_to_deadcroot	deadcrootc_transfer_to_deadcrootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+172	cf_vegt_leaf_to_litr1	leafc_to_litr1c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+173	cf_vegt_leaf_to_litr2	leafc_to_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+174	cf_vegt_leaf_to_litr3	leafc_to_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+175	cf_vegt_leaf_to_litr4	leafc_to_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+176	cf_vegt_froot_to_litr1	frootc_to_litr1c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+177	cf_vegt_froot_to_litr2	frootc_to_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+178	cf_vegt_froot_to_litr3	frootc_to_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+179	cf_vegt_froot_to_litr4	frootc_to_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+180	cf_vegt_lcroot_to_litr1	lcrootc_to_litr1c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+181	cf_vegt_lcroot_to_litr2	lcrootc_to_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+182	cf_vegt_lcroot_to_litr3	lcrootc_to_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+183	cf_vegt_lcroot_to_litr4	lcrootc_to_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+184	cf_vegt_froot_to_litr4	frootc_to_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+185	cf_vegt_dcroot_to_rcwd	dcrootc_to_rcwdc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+186	cf_vegt_dcroot_to_litr2	dcrootc_to_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+187	cf_vegt_dcroot_to_litr3	dcrootc_to_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+188	cf_vegt_dcroot_to_litr4	dcrootc_to_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+189	cf_vegt_leaf_day_mr	daytime leaf maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+190	cf_vegt_leaf_night_mr	nighttime leaf maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+191	cf_vegt_froot_mr	fine root maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+192	cf_vegt_livestem_mr	stem maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+193	cf_vegt_livecroot_mr	coarse root maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+194	cf_vegt_psnsun_to_cpool	photosynthesis of sunlit canopy	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+195	cf_vegt_psnshade_to_cpool	photosynthesis of shaded canopy	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+196	cf_vegt_st_cwd_to_l_litr2	st_cwdc_to_l_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+197	cf_vegt_st_cwd_to_l_litr3	st_cwdc_to_l_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+198	cf_vegt_st_cwd_to_l_litr4	st_cwdc_to_l_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+199	cf_vegt_r_cwd_to_fr_litr2	r_cwdc_to_fr_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+200	cf_vegt_r_cwd_to_fr_litr3	r_cwdc_to_fr_litr3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+201	cf_vegt_r_cwd_to_fr_litr4	r_cwdc_to_fr_litr4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+202	cf_vegt_l_litr1_hr	l_litr1_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+203	cf_vegt_l_litr1_to_soil1	l_litr1c_to_soil1c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+204	cf_vegt_l_litr2_hr	l_litr2_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+205	cf_vegt_l_litr2_to_soil2	l_litr2c_to_soil2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+206	cf_vegt_l_litr3_to_l_litr2	l_litr3c_to_l_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+207	cf_vegt_l_litr4_hr	l_litr4_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+208	cf_vegt_l_litr4_to_soil3	l_litr4c_to_soil3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+209	cf_vegt_fr_litr1_hr	fr_litr1_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+210	cf_vegt_fr_litr1_to_soil1	fr_litr1c_to_soil1c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+211	cf_vegt_fr_litr2_hr	fr_litr2_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+212	cf_vegt_fr_litr2_to_soil2	fr_litr2c_to_soil2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+213	cf_vegt_fr_litr3_to_fr_litr2	fr_litr3c_to_fr_litr2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+214	cf_vegt_fr_litr4_hr	fr_litr4_hr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+215	cf_vegt_fr_litr4_to_soil3	fr_litr4c_to_soil3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+216	cf_vegt_cpool_to_leaf	cpool_to_leafc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+217	cf_vegt_cpool_to_leaf_storage	cpool_to_leafc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+218	cf_vegt_cpool_to_froot	cpool_to_frootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+219	cf_vegt_cpool_to_froot_storage	cpool_to_frootc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+220	cf_vegt_cpool_to_livestem	cpool_to_livestemc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+221	cf_vegt_cpool_to_livestem_storage	cpool_to_livestemc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+222	cf_vegt_cpool_to_deadstem	cpool_to_deadstemc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+223	cf_vegt_cpool_to_deadstem_storage	cpool_to_deadstemc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+224	cf_vegt_cpool_to_livecroot	cpool_to_livecrootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+225	cf_vegt_cpool_to_livecroot_storage	cpool_to_livecrootc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+226	cf_vegt_cpool_to_deadcroot	cpool_to_deadcrootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+227	cf_vegt_cpool_to_deadcroot_storage	cpool_to_deadcrootc_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+228	cf_vegt_cpool_to_gresp_storage	cpool_to_gresp_storage	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+229	cf_vegt_cpool_leaf_gr	cpool_leaf_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+230	cf_vegt_cpool_leaf_storage_gr	cpool_leaf_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+231	cf_vegt_transfer_leaf_gr	transfer_leaf_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+232	cf_vegt_cpool_froot_gr	cpool_froot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+233	cf_vegt_cpool_froot_storage_gr	cpool_froot_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+234	cf_vegt_transfer_froot_gr	transfer_froot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+235	cf_vegt_cpool_livestem_gr	cpool_livestem_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+236	cf_vegt_cpool_livestem_storage_gr	cpool_livestem_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+237	cf_vegt_transfer_livestem_gr	transfer_livestem_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+238	cf_vegt_cpool_deadstem_gr	cpool_deadstem_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+239	cf_vegt_cpool_deadstem_storage_gr	cpool_deadstem_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+240	cf_vegt_transfer_deadstem_gr	transfer_deadstem_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+241	cf_vegt_cpool_livecroot_gr	cpool_livecroot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+242	cf_vegt_cpool_livecroot_storage_gr	cpool_livecroot_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+243	cf_vegt_transfer_livecroot_gr	transfer_livecroot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+244	cf_vegt_cpool_deadcroot_gr	cpool_deadcroot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+245	cf_vegt_cpool_deadcroot_storage_gr	cpool_deadcroot_storage_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+246	cf_vegt_transfer_deadcroot_gr	transfer_deadcroot_gr	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+247	cf_vegt_leaf_storage_to_leaf_transfer	leafc_storage_to_leafc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+248	cf_vegt_froot_storage_to_froot_transfer	frootc_storage_to_frootc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+249	cf_vegt_livestem_storage_to_livestem_transfer	livestemc_storage_to_livestemc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+250	cf_vegt_deadstem_storage_to_deadstem_transfer	deadstemc_storage_to_deadstemc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+251	cf_vegt_livecroot_storage_to_livecroot_transfer	livecrootc_storage_to_livecrootc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+252	cf_vegt_deadcroot_storage_to_deadcroot_transfer	deadcrootc_storage_to_deadcrootc_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+253	cf_vegt_gresp_storage_to_gresp_transfer	gresp_storage_to_gresp_transfer	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+254	cf_vegt_livestem_to_deadstem	livestemc_to_deadstemc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+255	cf_vegt_livecroot_to_deadcroot	livecrootc_to_deadcrootc	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+256	cf_vegt_harvest_stem_tot	stem harvest C fluxes	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+265	ns_vegt_leaf	leafn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+266	ns_vegt_leaf_storage	leafn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+267	ns_vegt_leaf_transfer	leafn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+268	ns_vegt_froot	frootn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+269	ns_vegt_froot_storage	frootn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+270	ns_vegt_froot_transfer	frootn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+271	ns_vegt_livestem	livestemn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+272	ns_vegt_livestem_storage	livestemn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+273	ns_vegt_livestem_transfer	livestemn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+274	ns_vegt_deadstem	deadstemn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+275	ns_vegt_deadstem_storage	deadstemn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+276	ns_vegt_deadstem_transfer	deadstemn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+277	ns_vegt_livecroot	livecrootn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+278	ns_vegt_livecroot_storage	livecrootn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+279	ns_vegt_livecroot_transfer	livecrootn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+280	ns_vegt_deadcroot	deadcrootn	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+281	ns_vegt_deadcroot_storage	deadcrootn_storage	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+282	ns_vegt_deadcroot_transfer	deadcrootn_transfer	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+283	ns_vegt_st_cwd	stem coarse woody debris N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+284	ns_vegt_r_cwd	root coarse woody debris N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+285	ns_vegt_l_litr1	l_litr1n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+286	ns_vegt_l_litr2	l_litr2n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+287	ns_vegt_l_litr3	l_litr3n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+288	ns_vegt_l_litr4	l_litr4n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+289	ns_vegt_fr_litr1	fr_litr1n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+290	ns_vegt_fr_litr2	fr_litr2n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+291	ns_vegt_fr_litr3	fr_litr3n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+292	ns_vegt_fr_litr4	fr_litr4n	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+293	ns_vegt_retrans	plant retransloc. N  pool	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+294	ns_vegt_npool	temp. N pool	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+295	ns_vegt_cum_fire	fire N losses	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+296	ns_vegt_cum_stem_export	cum. exported wood N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+297	ns_vegt_cum_planting_input	cum. planting N input	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+298	ns_vegt_cwd_stem_harvest_cum	cum. flux from harvested stem N to cwd N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+299	ns_vegt_litr_stem_harvest_cum	cum. flux from harvested stem N to litter N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+300	ns_vegt_harvest_stem_tot_cum	cum. stem harvest N fluxes	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+305	nf_vegt_m_leaf_to_litr1	m_leafn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+306	nf_vegt_m_leaf_to_litr2	m_leafn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+307	nf_vegt_m_leaf_to_litr3	m_leafn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+308	nf_vegt_m_leaf_to_litr4	m_leafn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+309	nf_vegt_m_froot_to_litr1	m_frootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+310	nf_vegt_m_froot_to_litr2	m_frootn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+311	nf_vegt_m_froot_to_litr3	m_frootn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+312	nf_vegt_m_froot_to_litr4	m_frootn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+313	nf_vegt_m_leaf_storage_to_litr1	m_leafn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+314	nf_vegt_m_froot_storage_to_litr1	m_frootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+315	nf_vegt_m_livestem_storage_to_litr1	m_livestemn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+316	nf_vegt_m_deadstem_storage_to_litr1	m_deadstemn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+317	nf_vegt_m_livecroot_storage_to_litr1	m_livecrootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+318	nf_vegt_m_deadcroot_storage_to_litr1	m_deadcrootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+319	nf_vegt_m_leaf_transfer_to_litr1	m_leafn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+320	nf_vegt_m_froot_transfer_to_litr1	m_frootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+321	nf_vegt_m_livestem_transfer_to_litr1	m_livestemn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+322	nf_vegt_m_deadstem_transfer_to_litr1	m_deadstemn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+323	nf_vegt_m_livecroot_transfer_to_litr1	m_livecrootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+324	nf_vegt_m_deadcroot_transfer_to_litr1	m_deadcrootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+325	nf_vegt_m_livestem_to_litr1	m_livestemn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+326	nf_vegt_m_livestem_to_litr	m_livestemn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+327	nf_vegt_m_deadstem_to_cwd	m_deadstemn_to_cwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+328	nf_vegt_m_deadstem_to_litr	m_deadstemn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+329	nf_vegt_m_livecroot_to_litr1	m_livecrootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+330	nf_vegt_m_livecroot_to_litr	m_livecrootn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+331	nf_vegt_m_deadcroot_to_cwd	m_deadcrootn_to_cwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+332	nf_vegt_m_deadcroot_to_litr	m_deadcrootn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+333	nf_vegt_m_retrans_to_litr1	m_retransn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+334	nf_vegt_h_livestem_to_stem_export	h_livestemn_to_stemn_export	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+335	nf_vegt_h_deadstem_to_stem_export	h_deadstemn_to_stemn_export	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+336	nf_vegt_planting_input	N input by planting	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+337	nf_vegt_h_livestem_to_litr	h_livestemn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+338	nf_vegt_h_deadstem_to_cwd	h_deadstemn_to_cwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+339	nf_vegt_h_deadstem_to_litr	h_deadstemn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+340	nf_vegt_h_leaf_to_litr1	h_leafn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+341	nf_vegt_h_leaf_to_litr2	h_leafn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+342	nf_vegt_h_leaf_to_litr3	h_leafn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+343	nf_vegt_h_leaf_to_litr4	h_leafn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+344	nf_vegt_h_froot_to_litr1	h_frootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+345	nf_vegt_h_froot_to_litr2	h_frootn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+346	nf_vegt_h_froot_to_litr3	h_frootn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+347	nf_vegt_h_froot_to_litr4	h_frootn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+348	nf_vegt_h_leaf_storage_to_litr1	h_leafn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+349	nf_vegt_h_froot_storage_to_litr1	h_frootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+350	nf_vegt_h_livestem_storage_to_litr1	h_livestemn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+351	nf_vegt_h_deadstem_storage_to_litr1	h_deadstemn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+352	nf_vegt_h_livecroot_storage_to_litr1	h_livecrootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+353	nf_vegt_h_deadcroot_storage_to_litr1	h_deadcrootn_storage_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+354	nf_vegt_h_leaf_transfer_to_litr1	h_leafn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+355	nf_vegt_h_froot_transfer_to_litr1	h_frootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+356	nf_vegt_h_livestem_transfer_to_litr1	h_livestemn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+357	nf_vegt_h_deadstem_transfer_to_litr1	h_deadstemn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+358	nf_vegt_h_livecroot_transfer_to_litr1	h_livecrootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+359	nf_vegt_h_deadcroot_transfer_to_litr1	h_deadcrootn_transfer_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+360	nf_vegt_h_livestem_to_litr1	h_livestemn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+361	nf_vegt_h_livecroot_to_litr1	h_livecrootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+362	nf_vegt_h_livecroot_to_litr	h_livecrootn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+363	nf_vegt_h_deadcroot_to_cwd	h_deadcrootn_to_cwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+364	nf_vegt_h_deadcroot_to_litr	h_deadcrootn_to_litrn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+365	nf_vegt_h_retrans_to_litr1	h_retransn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+366	nf_vegt_harvest_to_stem_export	harvest N flux to exported wood	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+367	nf_vegt_harvest_to_cwd	harvest N flux to coarse woody debris	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+368	nf_vegt_harvest_to_l_fr_litr	harvest N flux to litter	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+369	nf_vegt_harvest_to_l_litr	harvest N flux leaf+stem to litter	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+370	nf_vegt_harvest_to_fr_litr	harvest N flux roots to litter	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+371	nf_vegt_harvest_stem_to_cwd	harvest N flux stem to cwd	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+372	nf_vegt_harvest_stem_to_litr	harvest N flux stem to litter	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+373	nf_vegt_m_leaf_to_fire	m_leafn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+374	nf_vegt_m_froot_to_fire	m_frootn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+375	nf_vegt_m_leaf_storage_to_fire	m_leafn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+376	nf_vegt_m_froot_storage_to_fire	m_frootn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+377	nf_vegt_m_livestem_storage_to_fire	m_livestemn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+378	nf_vegt_m_deadstem_storage_to_fire	m_deadstemn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+379	nf_vegt_m_livecroot_storage_to_fire	m_livecrootn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+380	nf_vegt_m_deadcroot_storage_to_fire	m_deadcrootn_storage_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+381	nf_vegt_m_leaf_transfer_to_fire	m_leafn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+382	nf_vegt_m_froot_transfer_to_fire	m_frootn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+383	nf_vegt_m_livestem_transfer_to_fire	m_livestemn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+384	nf_vegt_m_deadstem_transfer_to_fire	m_deadstemn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+385	nf_vegt_m_livecroot_transfer_to_fire	m_livecrootn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+386	nf_vegt_m_deadcroot_transfer_to_fire	m_deadcrootn_transfer_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+387	nf_vegt_m_livestem_to_fire	m_livestemn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+388	nf_vegt_m_deadstem_to_fire	m_deadstemn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+389	nf_vegt_m_livecroot_to_fire	m_livecrootn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+390	nf_vegt_m_deadcroot_to_fire	m_deadcrootn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+391	nf_vegt_m_retrans_to_fire	m_retransn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+392	nf_vegt_m_l_litr1_to_fire	m_l_litr1n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+393	nf_vegt_m_l_litr2_to_fire	m_l_litr2n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+394	nf_vegt_m_l_litr3_to_fire	m_l_litr3n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+395	nf_vegt_m_l_litr4_to_fire	m_l_litr4n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+396	nf_vegt_m_fr_litr1_to_fire	m_fr_litr1n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+397	nf_vegt_m_fr_litr2_to_fire	m_fr_litr2n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+398	nf_vegt_m_fr_litr3_to_fire	m_fr_litr3n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+399	nf_vegt_m_fr_litr4_to_fire	m_fr_litr4n_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+400	nf_vegt_m_st_cwd_to_fire	m_st_cwdn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+401	nf_vegt_m_r_cwd_to_fire	m_r_cwdn_to_fire	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+402	nf_vegt_leaf_transfer_to_leaf	leafn_transfer_to_leafn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+403	nf_vegt_froot_transfer_to_froot	frootn_transfer_to_frootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+404	nf_vegt_livestem_transfer_to_livestem	livestemn_transfer_to_livestemn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+405	nf_vegt_deadstem_transfer_to_deadstem	deadstemn_transfer_to_deadstemn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+406	nf_vegt_livecroot_transfer_to_livecroot	livecrootn_transfer_to_livecrootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+407	nf_vegt_deadcroot_transfer_to_deadcroot	deadcrootn_transfer_to_deadcrootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+408	nf_vegt_leaf_to_litr1	leafn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+409	nf_vegt_leaf_to_litr2	leafn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+410	nf_vegt_leaf_to_litr3	leafn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+411	nf_vegt_leaf_to_litr4	leafn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+412	nf_vegt_leaf_to_retrans	leafn_to_retransn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+413	nf_vegt_froot_to_litr1	frootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+414	nf_vegt_froot_to_litr2	frootn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+415	nf_vegt_froot_to_litr3	frootn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+416	nf_vegt_froot_to_litr4	frootn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+417	nf_vegt_lcroot_to_litr1	lcrootn_to_litr1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+418	nf_vegt_lcroot_to_litr2	lcrootn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+419	nf_vegt_lcroot_to_litr3	lcrootn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+420	nf_vegt_lcroot_to_litr4	lcrootn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+421	nf_vegt_dcroot_to_rcwd	dcrootn_to_rcwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+422	nf_vegt_dcroot_to_litr2	dcrootn_to_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+423	nf_vegt_dcroot_to_litr3	dcrootn_to_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+424	nf_vegt_dcroot_to_litr4	dcrootn_to_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+425	nf_vegt_st_cwd_to_l_litr2	st_cwdn_to_l_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+426	nf_vegt_st_cwd_to_l_litr3	st_cwdn_to_l_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+427	nf_vegt_st_cwd_to_l_litr4	st_cwdn_to_l_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+428	nf_vegt_r_cwd_to_fr_litr2	r_cwdn_to_fr_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+429	nf_vegt_r_cwd_to_fr_litr3	r_cwdn_to_fr_litr3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+430	nf_vegt_r_cwd_to_fr_litr4	r_cwdn_to_fr_litr4n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+431	nf_vegt_l_litr1_to_soil1	l_litr1n_to_soil1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+432	nf_vegt_smin_to_soil1_l1	sminn_to_soil1n_l1	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+433	nf_vegt_l_litr2_to_soil2	l_litr2n_to_soil2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+434	nf_vegt_smin_to_soil2_l2	sminn_to_soil2n_l2	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+435	nf_vegt_l_litr3_to_l_litr2	l_litr3n_to_l_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+436	nf_vegt_l_litr4_to_soil3	l_litr4n_to_soil3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+437	nf_vegt_fr_litr1_to_soil1	fr_litr1n_to_soil1n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+438	nf_vegt_fr_litr2_to_soil2	fr_litr2n_to_soil2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+439	nf_vegt_fr_litr3_to_fr_litr2	fr_litr3n_to_fr_litr2n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+440	nf_vegt_fr_litr4_to_soil3	fr_litr4n_to_soil3n	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+441	nf_vegt_smin_to_soil3_l4	sminn_to_soil3n_l4	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+442	nf_vegt_smin_to_nvol_l1s1	sminn_to_nvol_l1s1	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+443	nf_vegt_smin_to_nvol_l2s2	sminn_to_nvol_l2s2	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+444	nf_vegt_smin_to_nvol_l4s3	sminn_to_nvol_l4s3	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+445	nf_vegt_retrans_to_npool	retransn_to_npool	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+446	nf_vegt_smin_to_npool	sminn_to_npool	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+447	nf_vegt_npool_to_leaf	npool_to_leafn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+448	nf_vegt_npool_to_leaf_storage	npool_to_leafn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+449	nf_vegt_npool_to_froot	npool_to_frootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+450	nf_vegt_npool_to_froot_storage	npool_to_frootn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+451	nf_vegt_npool_to_livestem	npool_to_livestemn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+452	nf_vegt_npool_to_livestem_storage	npool_to_livestemn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+453	nf_vegt_npool_to_deadstem	npool_to_deadstemn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+454	nf_vegt_npool_to_deadstem_storage	npool_to_deadstemn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+455	nf_vegt_npool_to_livecroot	npool_to_livecrootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+456	nf_vegt_npool_to_livecroot_storage	npool_to_livecrootn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+457	nf_vegt_npool_to_deadcroot	npool_to_deadcrootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+458	nf_vegt_npool_to_deadcroot_storage	npool_to_deadcrootn_storage	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+459	nf_vegt_leaf_storage_to_leaf_transfer	leafn_storage_to_leafn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+460	nf_vegt_froot_storage_to_froot_transfer	frootn_storage_to_frootn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+461	nf_vegt_livestem_storage_to_livestem_transfer	livestemn_storage_to_livestemn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+462	nf_vegt_deadstem_storage_to_deadstem_transfer	deadstemn_storage_to_deadstemn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+463	nf_vegt_livecroot_storage_to_livecroot_transfer	livecrootn_storage_to_livecrootn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+464	nf_vegt_deadcroot_storage_to_deadcroot_transfer	deadcrootn_storage_to_deadcrootn_transfer	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+465	nf_vegt_livestem_to_deadstem	livestemn_to_deadstemn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+466	nf_vegt_livestem_to_retrans	livestemn_to_retransn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+467	nf_vegt_livecroot_to_deadcroot	livecrootn_to_deadcrootn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+468	nf_vegt_livecroot_to_retrans	livecrootn_to_retransn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+469	nf_vegt_harvest_stem_to_litrcwd	harvestn_stem_to_litrcwdn	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+470	nf_vegt_harvest_stem_tot	stem harvest N fluxes	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+480	cf_vegt_gpp	GPP	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+481	cf_vegt_npp	NPP	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+482	cf_vegt_mr	maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+483	cf_vegt_gr	growth respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+484	cf_vegt_fr_hr	heterotrophic respiration from fine root pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+485	cf_vegt_l_hr	heterotrophic respiration from litter pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+486	cf_vegt_fire	fire loss	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+487	cf_vegt_t_litfall_leaf	leaf litterfall from turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+488	cf_vegt_m_litfall_leaf	leaf litterfall from mortality	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+489	cf_vegt_litfall_leaf	leaf litterfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+490	cf_vegt_t_litfall_froot	fine root litterfall from turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+491	cf_vegt_m_litfall_froot	fine root litterfall from mortality	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+492	cf_vegt_litfall_froot	fine root litterfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+493	cf_vegt_m_litfall_croot_litr	coarse root litterfall to litter pool from mortality	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+494	cf_vegt_m_litfall_croot	coarse root litterfall from mortality	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+495	cf_vegt_t_lcroot_litr	live coarse root litterfall from turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+496	cf_vegt_t_dcroot_litr	dead coarse root litterfall from turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+497	cf_vegt_litfall_croot_litr	coarse root litterfall to litter pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+498	cf_vegt_litfall_croot	coarse root litterfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+499	cf_vegt_litfall_stem_litr	stem litterfall to litter pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+500	cf_vegt_litfall_stem	stem litterfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+501	cf_vegt_abovegr_litfall_litr	aboveground litterfall to litter pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+502	cf_vegt_belowgr_litfall_litr	belowground litterfall to litter pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+503	cf_vegt_tot_litfallc	total litterfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+504	cf_vegt_growth_leaf	leaf growth	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+505	cf_vegt_growth_froot	fine root growth	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+506	cf_vegt_growth_croot	coarse root growth	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+507	cf_vegt_growth_stem_g	C allocation to stem	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+508	cf_vegt_growth_stem_n	stem growth	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+509	cf_vegt_belowgr_mr	root maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+510	cf_vegt_belowgr_gr	root growth respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+511	cf_vegt_belowgr_resp	root respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+512	cf_vegt_frootlit_loss_soil	fine root litter transfer to soil	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+513	cs_vegt_cum_gpp	cum. GPP	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+514	cs_vegt_cum_npp	cum. NPP	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+515	cs_vegt_cum_mr	cum. mainten. respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+516	cs_vegt_cum_gr	cum. growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+517	cs_vegt_cum_fire	cum. fire C losses	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+518	cs_vegt_sum_leaf	leaf C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+519	cs_vegt_sum_stem	stem C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+520	cs_vegt_sum_froot	fine root C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+521	cs_vegt_sum_croot	coarse root C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+522	cs_vegt_veg	vegetation C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+523	cs_vegt_gresp	growth respiration pool C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+524	cs_vegt_l_litr	leaf litter C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+525	cs_vegt_fr_litr	fine root litter C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+526	cs_vegt_cwd	coarse woody debris	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+527	cs_vegt_litrcwd	litter + cwd carbon	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+528	cs_vegt_stem_harvest_stem_tot_cum	stem + cum. stem harvest C fluxes	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+535	ns_vegt_sum_leaf	leaf N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+536	ns_vegt_sum_stem	stem N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+537	ns_vegt_sum_froot	fine root N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+538	ns_vegt_sum_croot	coarse root N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+539	ns_vegt_veg	vegetation N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+540	ns_vegt_l_litr	leaf litter N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+541	ns_vegt_fr_litr	fine root litter N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+542	ns_vegt_cwd	coarse woody debris N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+543	ns_vegt_litrcwd	litter + cwd N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+544	nf_vegt_nvol_loss	total N volatilization flux	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+545	ns_vegt_stem_harvest_stem_tot_cum	stem + cum. stem harvest N fluxes	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+560	ws_vegt_canopy	water stored on canopy	ws	 [mm]	 [mm]	 [mm]	4
+561	ws_vegt_stem	water stored on stem	ws	 [mm]	 [mm]	 [mm]	4
+562	ws_vegt_cum_canopyevap	cum. canopy water evaporation	ws	 [mm]	 [mm]	 [mm]	4
+563	ws_vegt_cum_trans	cum. transpiration	ws	 [mm]	 [mm]	 [mm]	4
+564	ws_vegt_cum_capi_rise	cum. capillary rise	ws	 [mm]	 [mm]	 [mm]	4
+565	ws_vegt_cum_wat_removal_gw	cum. water removal from groundwater, if gw static	ws	 [mm]	 [mm]	 [mm]	4
+570	wf_vegt_soil_pot_trans	potential transpiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+571	wf_vegt_soilw_trans	actual transpiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+572	wf_vegt_capi_rise	capillary rise	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+573	wf_vegt_capi_rise_layer	layer of capillary rise	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+574	wf_vegt_wat_removal_gw	water removal from groundwater, if gw static	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+575	wf_vegt_prcp_to_canopy	interception on canopy	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+576	wf_vegt_prcp_to_stem	interception on stem	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+577	wf_vegt_canopyevap	evaporation from canopy	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+579	veg_vegt_stand_density	stand_density of vegtype (input parameter)	dim				4
+580	veg_vegt_height	current vegetation height	m	 [m]	 [m]	 [m]	4
+581	veg_vegt_canopy_cover_act	actual canopy closure value	dim				4
+582	veg_vegt_root_depth	root depth of vegetation	m	 [m]	 [m]	 [m]	4
+583	veg_vegt_rgrowth	root growth	m_f	 [m/d]	 [m/mon]	 [m/a]	4
+584	veg_vegt_cf_stress	factor for coarse fragments stress on root growth	dim				4
+585	veg_vegt_t_stress	factor for temperature stress on root growth	dim				4
+586	veg_vegt_bd_stress	factor for bulk density strength stress on root growth	dim				4
+587	veg_vegt_st_stress	factor for soil strength stress on root growth	dim				4
+588	veg_vegt_air_stress	factor for aeration stress on root growth	dim				4
+589	veg_vegt_ph_stress	factor for pH stress on root growth	dim				4
+590	veg_vegt_stress	resulting stress factor on root growth	dim				4
+591	veg_vegt_canopy_cover_act_cov	actual canopy closure value coverd	dim				4
+592	veg_vegt_fr_cut	fraction cut	dim				4
+593	veg_vegt_fr_export	fraction export	dim				4
+594	veg_vegt_ss_rdepth_init	root depth of vegetation from ss-file	m	 [m]	 [m]	 [m]	4
+595	epv_vegt_base_rate_day_leaf_litfall_increment	base rate leaf litfall; for evergreen	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+596	epv_vegt_day_leaf_litfall_increment	rate leaf litfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+597	epv_vegt_day_froot_litfall_increment	rate froot litfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+598	epv_vegt_day_lcroot_litfall_increment	rate live coarse root litfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+599	epv_vegt_day_dcroot_litfall_increment	rate dead coarse root litfall	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+600	epv_vegt_day_livestem_turnover_increment	rate livestem turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+601	epv_vegt_day_livecroot_turnover_increment	rate livecroot turnover	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+602	cs_vegt_annmax_leaf	annual maximum leaf	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+603	cs_vegt_annmax_froot	annual maximum froot	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+604	cs_vegt_annmax_livestem	annual maximum livestem	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+605	cs_vegt_annmax_livecroot	annual maximum livecroot	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+606	cs_vegt_annmax_deadcroot	annual maximum deadcroot	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+607	epv_vegt_proj_lai	projected LAI	dim				4
+608	epv_vegt_all_lai	all-sided leaf area index	dim				4
+609	epv_vegt_plaisun	sunlit projected leaf area index	dim				4
+610	epv_vegt_plaishade	shaded projected leaf area index	dim				4
+611	epv_vegt_sun_proj_sla	sunlit projected specific leaf area	m2kg	 [m²/kg C]	 [m²/kg C]	 [m²/kg C]	4
+612	epv_vegt_shade_proj_sla	shaded projected SLA	m2kg	 [m²/kg C]	 [m²/kg C]	 [m²/kg C]	4
+613	epv_vegt_dlmr_area_sun	sunlit leaf MR	umol_mL_s	 [µmolC/(m² projected leaf area*s)	 [µmolC/(m² projected leaf area*s)	 [µmolC/(m² projected leaf area*s)	4
+614	epv_vegt_dlmr_area_shade	shaded leaf MR	umol_mL_s	 [µmolC/(m² projected leaf area*s)	 [µmolC/(m² projected leaf area*s)	 [µmolC/(m² projected leaf area*s)	4
+615	epv_vegt_gl_t_wv_sun	leaf-scale conductance to transpired water	m_s	 [m/s]	 [m/s]	 [m/s]	4
+616	epv_vegt_gl_t_wv_shade	leaf-scale conductance to transpired water	m_s	 [m/s]	 [m/s]	 [m/s]	4
+617	epv_vegt_assim_sun	sunlit assimilation per unit pLAI	umol_m_s	 µmol/(m²*s)	 µmol/(m²*s)	 µmol/(m²*s)	4
+618	epv_vegt_assim_shade	shaded assimilation per unit pLAI	umol_m_s	 µmol/(m²*s)	 µmol/(m²*s)	 µmol/(m²*s)	4
+619	epv_vegt_m_tmin	freezing night temperature multiplier	dim				4
+620	epv_vegt_m_water	water availability multiplier	dim				4
+621	epv_vegt_m_co2	atmospheric CO2 multiplier	dim				4
+622	epv_vegt_m_ppfd_sun	PAR flux density multiplier, sunlit	dim				4
+623	epv_vegt_m_ppfd_shade	PAR flux density multiplier, shaded	dim				4
+624	epv_vegt_m_vpd	vapor pressure deficit multiplier	dim				4
+625	epv_vegt_m_final_sun	product of all other multipliers, sunlit	dim				4
+626	epv_vegt_m_final_shade	product of all other multipliers, shaded	dim				4
+627	epv_vegt_gl_bl	leaf boundary layer conductance	m_s	 [m/s]	 [m/s]	 [m/s]	4
+628	epv_vegt_gl_c	leaf cuticular conductance	m_s	 [m/s]	 [m/s]	 [m/s]	4
+629	epv_vegt_gl_s_sun	leaf-scale stomatal conductance, sunlit	m_s	 [m/s]	 [m/s]	 [m/s]	4
+630	epv_vegt_gl_s_shade	leaf-scale stomatal conductance, shaded	m_s	 [m/s]	 [m/s]	 [m/s]	4
+631	epv_vegt_gl_e_wv	leaf conductance to evaporated water	m_s	 [m/s]	 [m/s]	 [m/s]	4
+632	epv_vegt_gl_sh	leaf conductance to sensible heat	m_s	 [m/s]	 [m/s]	 [m/s]	4
+633	epv_vegt_gc_e_wv	canopy conductance to evaporated water	m_s	 [m/s]	 [m/s]	 [m/s]	4
+634	epv_vegt_gc_sh	canopy conductance to sensible heat	m_s	 [m/s]	 [m/s]	 [m/s]	4
+635	epv_vegt_ytd_maxplai	ann. max. proj. LAI	dim				4
+636	epv_vegt_gl_t_wv_sun_cov	leaf-scale conductance to transpired water coverd	m_s	 [m/s]	 [m/s]	 [m/s]	4
+637	epv_vegt_gl_t_wv_shade_cov	leaf-scale conductance to transpired water coverd	m_s	 [m/s]	 [m/s]	 [m/s]	4
+638	epv_vegt_m_ppfd_sun_cov	PAR flux density multiplier, sunlit, coverd	dim				4
+639	epv_vegt_m_ppfd_shade_cov	PAR flux density multiplier, shaded, coverd	dim				4
+640	phen_vegt_remdays_curgrowth	days left in current growth season	yd				4
+641	phen_vegt_remdays_transfer	number of transfer days remaining	yd				4
+642	phen_vegt_remdays_litfall	number of litfall days remaining	yd				4
+643	phen_vegt_predays_transfer	number of transfer days previous	yd				4
+644	phen_vegt_predays_litfall	number of litfall days previous	yd				4
+645	metvar_vegt_swabs_per_plaisun_cov	swabs per unit sunlit proj LAI, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+646	metvar_vegt_swabs_per_plaishade_cov	swabs per unit shaded proj LAI, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+647	metvar_vegt_ppfd_per_plaisun_cov	ppfd per unit sunlit proj LAI, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+648	metvar_vegt_ppfd_per_plaishade_cov	ppfd per unit shaded proj LAI, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+649	metvar_vegt_parabs_cov	PAR absorbed by canopy, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+650	metvar_vegt_partrans_cov	PAR not absorbed by canopy, coverd	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+651	epv_vegt_m_final_sun_cov	product of all other multipliers, sunlit, coverd	dim				4
+652	epv_vegt_m_final_shade_cov	product of all other multipliers, shaded, coverd	dim				4
+653	epv_vegt_growth_red_final	final growth reduction parameter	dim				4
+654	epv_vegt_alloc_red_final	final allocation reduction parameter	dim				4
+655	aout_vegt_monmaxlai	max. LAI of month	dim				4
+656	aout_vegt_annmaxlai	max. LAI of year	dim				4

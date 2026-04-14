@@ -1,0 +1,16 @@
+0	Horizon Name
+1	Lower horizon border (cm)
+2	Layer Thickness (cm)
+3	Corg correction factor
+4	Texture
+5	pH
+6	C-org (M%)
+7	Gravel (Vol.%)
+8	Sand (M.%)
+9	Silt (M.%)
+10	Clay (M.%)
+11	BD (g/cm³)
+12	PV (Vol.%)
+13	FC (Vol.%)
+14	PWP (Vol.%)
+15	KS (cm/d)

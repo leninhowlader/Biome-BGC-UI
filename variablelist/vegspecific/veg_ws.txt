@@ -1,0 +1,2 @@
+560,ws_[vegt].canopyw,water stored on canopy
+561,ws_[vegt].stemw,water stored on stem

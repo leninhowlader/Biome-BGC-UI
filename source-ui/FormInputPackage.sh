@@ -1,0 +1,1 @@
+pyuic4 -x FormInputPackage.ui -o FormInputPackage.py

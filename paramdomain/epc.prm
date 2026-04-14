@@ -1,0 +1,92 @@
+0	Growth form: 0 = non-woody, 1 = Woody
+1	Leaf habit: 0 = Deciduous, 1 = Evergreen
+2	Photosynthetic pathway: 0 = C4 PSN, 1 = C3 PSN
+3	Phenology option: 0 = user specified phenology, 1 = model phenology after Biome-BGC, 2 = model phenology after LNVAR
+4	Year-day for middle of new leaf growth period (when phenology flag=0)
+5	Year-day for middle litter fall period (when phenology flag=0)
+6	Transfer growth period as fraction of growing season
+7	Litterfall period as fraction of growing season
+8	Offset Value for parallel shift of onset criterium function (model 1 and 2)
+9	Intercept constant for leaf unfolding (model 2)
+10	Slope constant for leaf unfolding (model 2)
+11	Temperature threshold for chill day (model 2)
+12	Temperature threshold for thermal time (model 2)
+13	Critical day-length for litterfall [sec]
+14	Soil temperature limit for litterfall
+15	Heat day factor to prolong litterfall (0.0=no shift)
+16	Annual leaf turnover fraction [1/yr]
+17	Annual fine root turnover fraction [1/yr]
+18	Annual coarse root turnover fraction [1/yr]
+19	Annual live wood turnover fraction [1/yr]
+20	Annual Whole plant mortality fraction [1/yr]
+21	Annual fire mortality fraction [1/yr]
+22	New fine root / new leaf ratio (allocation)
+23	New stem / new leaf ratio (allocation)
+24	New live Wood / new total wood ratio (allocation)
+25	New coarse root / new stem ratio (allocation)
+26	current growth fraction (allocation)
+27	C/N of leaves
+28	C/N of leaf litter
+29	C/N of fine root
+30	C/N of coarse root
+31	C/N of live wood
+32	C/N of dead wood
+33	Litter fraction of stem and coarse root
+34	Leaf litter labile fraction
+35	Leaf litter cellulose fraction
+36	Leaf litter lignin fraction
+37	Fine root labile fraction
+38	Fine root cellulose fraction
+39	Fine root lignin fraction
+40	Dead wood cellulose fraction
+41	Dead wood lignin fraction
+42	Canopy water interception height [mm/LAI]
+43	Stem water interception height [mm/(kg stem C/m²)] 
+44	Albedo
+45	Canopy light extinction coefficient
+46	All-sided to projected leaf area ratio
+47	Canopy average secific leaf area [m²/kg C] 
+48	Shaded / sunlit SLA ratio
+49	Maximum tree height [m]
+50	Stem wood mass at max height
+51	Fraction of leaf N in RuBisCO
+52	Start age of growth reduction [years] 
+53	End age of growth reduction [years] 
+54	Growth reduction factor
+55	Allocation reduction factor
+56	Nitrogen fixation [kg N m-2 a-1] 
+57	Maximum stomatal conductance [m/s]
+58	Cuticular conductance [m/s]
+59	Boundary layer conductance [m/s]
+60	Available soil water factor
+61	Wilting point factor
+62	VPD of start of conductance reduction [Pa]
+63	VPD of complete conductance reduction [Pa] 
+64	Thinning rule option:0 = Table, 1 = Function
+65	File containing thinning rule table
+66	First thinning stem carbon threshold
+67	First thinning fraction
+68	Thinning rule coefficient B00
+69	Thinning rule coefficient B01
+70	Thinning rule coefficient B10
+71	Thinning rule coefficient B11
+72	Thinning rule coefficient B12
+73	Start harvest coefficient - Intercept
+74	Start harvest coefficient - Slope
+75	Thinning period [years]
+76	Age of clear cut [years]
+77	Harvest correction factor
+78	Export fraction coefficient - Intercept
+79	Export fraction coefficient Slope
+80	Optimum temperature for root growth [°C]
+81	Minimum temperature for root growth [°C]
+82	Bulk density coefficient for max root growth [g/cm³]
+83	Critical % of water-filled porosity
+84	Minimum pH allowing root growth
+85	Maximum pH allowing root growth
+86	Minimum pH for optimum root growth
+87	Maximum pH for optimum root growth
+88	Water saturation stress
+89	Potential vertical root growth rate [m a-1]
+90	Maximum age of root growth [yrs]
+91	Zeta coefficient for vertical root distribution

@@ -1,0 +1,19 @@
+65,nf_site.ndep_to_sminn,N deposition
+66,nf_site.nfix_to_sminn,biol. N fixation
+67,nf_site.soil1n_to_soil2n,N flux from soil1 to soil2
+68,nf_site.sminn_to_soil2n_s1,mineralization flux soil1 to soil2 
+69,nf_site.soil2n_to_soil3n,N flux from soil2 to soil3
+70,nf_site.sminn_to_soil3n_s2,mineralization flux soil21 to soil3 
+71,nf_site.soil3n_to_soil4n,N flux from soil3 to soil4
+72,nf_site.sminn_to_soil4n_s3,mineralization flux soil3 to soil4 
+73,nf_site.soil4n_to_sminn,N flux from soil4
+74,nf_site.sminn_to_nvol_s1s2,denitrification flux from soil1 to soil2
+75,nf_site.sminn_to_nvol_s2s3,denitrification flux from soil2 to soil3
+76,nf_site.sminn_to_nvol_s3s4,denitrification flux from soil3 to soil4
+77,nf_site.sminn_to_nvol_s4,denitrification flux from soil4
+78,nf_site.sminn_to_denitrif,denitrification
+79,nf_site.sminn_leached,N leaching
+136,nf_site.nvol_loss_tot,total N volatilization flux
+192,nf_site.gross_nmin,gross N mineralization
+193,nf_site.gross_nimmob,gross N immobilization
+194,nf_site.net_nmin,net N mineralization

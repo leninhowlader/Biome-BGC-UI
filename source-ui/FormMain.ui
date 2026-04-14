@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BIOME-BGC (version ZALF)</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icon.qrc">
+    <normaloff>:/bgc.ico</normaloff>:/bgc.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QMdiArea" name="mdiArea">
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+      <property name="tabsMovable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>790</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="menuLogin"/>
+    <addaction name="menuLogOut"/>
+    <addaction name="menuExit"/>
+   </widget>
+   <widget class="QMenu" name="menuBiomeBGC">
+    <property name="title">
+     <string>Biome-BGC</string>
+    </property>
+    <widget class="QMenu" name="menuModel_Input">
+     <property name="title">
+      <string>Model Input</string>
+     </property>
+     <addaction name="actionInitializationFile"/>
+     <addaction name="actionGIS_File"/>
+     <addaction name="actionVegetation_File"/>
+     <addaction name="actionEPC_File"/>
+     <addaction name="actionSoil_Parameter_File"/>
+     <addaction name="separator"/>
+     <addaction name="actionInput_PACK"/>
+    </widget>
+    <widget class="QMenu" name="menuModel_Execution">
+     <property name="title">
+      <string>Model Execution</string>
+     </property>
+     <addaction name="actionExecute_Run"/>
+    </widget>
+    <widget class="QMenu" name="menuOutput_2">
+     <property name="title">
+      <string>Output</string>
+     </property>
+     <addaction name="actionOpenOutput"/>
+     <addaction name="separator"/>
+     <addaction name="actionDesign_Graph"/>
+     <addaction name="actionView_Graph"/>
+    </widget>
+    <widget class="QMenu" name="menuTools">
+     <property name="title">
+      <string>Tools</string>
+     </property>
+     <addaction name="actionINI_File_SPSS_Script"/>
+     <addaction name="actionClean_Temp_File"/>
+    </widget>
+    <widget class="QMenu" name="menuParameter_Optimization">
+     <property name="title">
+      <string>Parameter Optimization</string>
+     </property>
+     <addaction name="actionHOPSPACK_Problem_Definition"/>
+     <addaction name="action_evaluator_Configuration"/>
+     <addaction name="actionRun_HOPSPACK"/>
+    </widget>
+    <addaction name="menuModel_Input"/>
+    <addaction name="menuModel_Execution"/>
+    <addaction name="menuOutput_2"/>
+    <addaction name="separator"/>
+    <addaction name="menuParameter_Optimization"/>
+    <addaction name="separator"/>
+    <addaction name="menuTools"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="menuAboutUs"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionTabbed_View"/>
+    <addaction name="actionWindow_View"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuBiomeBGC"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionInitializationFile"/>
+   <addaction name="actionGIS_File"/>
+   <addaction name="actionVegetation_File"/>
+   <addaction name="actionSoil_Parameter_File"/>
+   <addaction name="actionEPC_File"/>
+   <addaction name="separator"/>
+   <addaction name="actionExecute_Run"/>
+   <addaction name="separator"/>
+   <addaction name="actionOpenOutput"/>
+   <addaction name="actionDesign_Graph"/>
+   <addaction name="actionView_Graph"/>
+   <addaction name="separator"/>
+   <addaction name="menuExit"/>
+  </widget>
+  <action name="menuExit">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/exit.ico</normaloff>:/exit.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="menuLogin">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Log In</string>
+   </property>
+  </action>
+  <action name="menuLogOut">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </action>
+  <action name="menuAboutUs">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>About Us..</string>
+   </property>
+  </action>
+  <action name="actionTabbed_View">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Tabbed View</string>
+   </property>
+  </action>
+  <action name="actionWindow_View">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Window View</string>
+   </property>
+  </action>
+  <action name="actionInitializationFile">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/ini.ico</normaloff>:/ini.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Initialization File</string>
+   </property>
+  </action>
+  <action name="actionGIS_File">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/gis.ico</normaloff>:/gis.ico</iconset>
+   </property>
+   <property name="text">
+    <string>GIS File</string>
+   </property>
+  </action>
+  <action name="actionVegetation_File">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/veg.ico</normaloff>:/veg.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Vegetation File</string>
+   </property>
+  </action>
+  <action name="actionSoil_Parameter_File">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/soil.ico</normaloff>:/soil.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Soil Parameter File</string>
+   </property>
+  </action>
+  <action name="actionEPC_File">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/epc.ico</normaloff>:/epc.ico</iconset>
+   </property>
+   <property name="text">
+    <string>EPC File</string>
+   </property>
+  </action>
+  <action name="actionInput_PACK">
+   <property name="text">
+    <string>Input PACK</string>
+   </property>
+  </action>
+  <action name="actionExecute_Run">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/run.ico</normaloff>:/run.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Execute/Run</string>
+   </property>
+  </action>
+  <action name="actionOpenOutput">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/output.ico</normaloff>:/output.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Read Output</string>
+   </property>
+  </action>
+  <action name="actionINI_File_SPSS_Script">
+   <property name="text">
+    <string>INI File -&gt; SPSS Script</string>
+   </property>
+  </action>
+  <action name="actionDesign_Graph">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/cgrp.ico</normaloff>:/cgrp.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Design Graph</string>
+   </property>
+  </action>
+  <action name="actionView_Graph">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/vgrp.ico</normaloff>:/vgrp.ico</iconset>
+   </property>
+   <property name="text">
+    <string>View Graph</string>
+   </property>
+  </action>
+  <action name="actionClean_Temp_File">
+   <property name="text">
+    <string>Clean Temp File</string>
+   </property>
+  </action>
+  <action name="action_evaluator_Configuration">
+   <property name="text">
+    <string>Evaluator Configuration</string>
+   </property>
+  </action>
+  <action name="actionRun_HOPSPACK">
+   <property name="text">
+    <string>Run HOPSPACK</string>
+   </property>
+  </action>
+  <action name="actionHOPSPACK_Problem_Definition">
+   <property name="text">
+    <string>HOPSPACK Problem Definition</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

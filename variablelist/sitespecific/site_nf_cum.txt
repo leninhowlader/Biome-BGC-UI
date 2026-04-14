@@ -1,0 +1,4 @@
+55,nf_cum.nfix_src,cum biol. N fixation
+56,nf_cum.ndep_src,cum N-deposition
+57,nf_cum.nleached_snk,cum N leaching
+58,nf_cum.nvol_snk,cum N loss to volatilization

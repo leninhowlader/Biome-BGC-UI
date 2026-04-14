@@ -1,0 +1,1 @@
+pyrcc4 -py3 "icon.qrc" -o icon_rc.py

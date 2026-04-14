@@ -1,0 +1,1 @@
+pyuic4 -x FormDesignGraph.ui -o FormDesignGraph.py

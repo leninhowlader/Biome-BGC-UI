@@ -1,0 +1,1 @@
+pyuic4 -x FormSpssScript.ui -o FormSpssScript.py

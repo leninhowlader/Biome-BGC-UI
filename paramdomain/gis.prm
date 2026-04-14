@@ -1,0 +1,27 @@
+0	Site Index
+1	No. Of vegetation types
+2	Soil profile file name
+3	Soil horizon file name
+4	Profile name
+5	Ground water depth (m)
+6	Ground water flag:0 = dynamic, 1 = static
+7	Infiltration reduction factor
+8	Vert. distr. of dehumification (zeta)
+9	Depth of dehumidification (m)
+10	Soil temp - Year day of T0
+11	Soil temp - Time Lag
+12	Soil temp - Amplitude
+13	Soil temp - Increase by depth
+14	Site elevation (m)
+15	Site latitude (dec.-degree)
+16	Meteorological file name
+17	No. of meteorological years
+18	N-dep file name
+19	N-dep rate (kg m-2 a-1)
+20	Industrial N-dep rate (kg m-2 a-1)
+21	Snow water pool (mm)
+22	Fast microbial recycling pool (fraction)
+23	Medium microbial recycling pool (fraction)
+24	Slow microbial recycling pool (fraction)
+25	Recalcitrant SOM (fraction)
+26	Soil N-min (kg/m²)

@@ -1,0 +1,8 @@
+148,wf_cum.prcp_src,cum. precipitation
+149,wf_cum.outflow_snk,cum. outflow
+150,wf_cum.soilevap_snk,cum soil evaporation
+151,wf_cum.snowsubl_snk,cum snow sublimation
+152,wf_cum.surf_runoff_snk,cum surface runoff
+153,wf_cum.infiltration_src,cum. infiltration
+154,wf_cum.sum_throughfall_src,cum. throughfall
+155,wf_cum.soilice_subl_snk,cum. soil ice sublimation

@@ -1,0 +1,56 @@
+595,epv_[vegt].base_rate_day_leafc_litfall_increment,base rate leaf litfall; for evergreen
+596,epv_[vegt].day_leafc_litfall_increment,rate leaf litfall
+597,epv_[vegt].day_frootc_litfall_increment,rate froot litfall
+598,epv_[vegt].day_lcrootc_litfall_increment,rate live coarse root litfall
+599,epv_[vegt].day_dcrootc_litfall_increment,rate dead coarse root litfall
+600,epv_[vegt].day_livestemc_turnover_increment,rate livestem turnover
+601,epv_[vegt].day_livecrootc_turnover_increment,rate livecroot turnover
+602,epv_[vegt].annmax_leafc,annual maximum leaf
+603,epv_[vegt].annmax_frootc,annual maximum froot
+604,epv_[vegt].annmax_livestemc,annual maximum livestem
+605,epv_[vegt].annmax_livecrootc,annual maximum livecroot
+606,epv_[vegt].annmax_deadcrootc,annual maximum deadcroot
+607,epv_[vegt].proj_lai,projected LAI
+608,epv_[vegt].all_lai,all-sided leaf area index
+609,epv_[vegt].plaisun,sunlit projected leaf area index
+610,epv_[vegt].plaishade,shaded projected leaf area index
+611,epv_[vegt].sun_proj_sla,sunlit projected specific leaf area
+612,epv_[vegt].shade_proj_sla,shaded projected SLA
+613,epv_[vegt].dlmr_area_sun,sunlit leaf MR
+614,epv_[vegt].dlmr_area_shade,shaded leaf MR
+615,epv_[vegt].gl_t_wv_sun,leaf-scale conductance to transpired water
+616,epv_[vegt].gl_t_wv_shade,leaf-scale conductance to transpired water
+617,epv_[vegt].assim_sun,sunlit assimilation per unit pLAI
+618,epv_[vegt].assim_shade,shaded assimilation per unit pLAI
+619,epv_[vegt].m_tmin,freezing night temperature multiplier
+620,epv_[vegt].m_water,water availability multiplier
+621,epv_[vegt].m_co2,atmospheric CO2 multiplier
+622,epv_[vegt].m_ppfd_sun,PAR flux density multiplier - sunlit
+623,epv_[vegt].m_ppfd_shade,PAR flux density multiplier - shaded
+624,epv_[vegt].m_vpd,vapor pressure deficit multiplier
+625,epv_[vegt].m_final_sun,product of all other multipliers - sunlit
+626,epv_[vegt].m_final_shade,product of all other multipliers, shaded
+627,epv_[vegt].gl_bl,leaf boundary layer conductance
+628,epv_[vegt].gl_c,leaf cuticular conductance
+629,epv_[vegt].gl_s_sun,leaf-scale stomatal conductance - sunlit
+630,epv_[vegt].gl_s_shade,leaf-scale stomatal conductance - shaded
+631,epv_[vegt].gl_e_wv,leaf conductance to evaporated water
+632,epv_[vegt].gl_sh,leaf conductance to sensible heat
+633,epv_[vegt].gc_e_wv,canopy conductance to evaporated water
+634,epv_[vegt].gc_sh,canopy conductance to sensible heat
+635,epv_[vegt].ytd_maxplai,ann. max. proj. LAI
+636,epv_[vegt].gl_t_wv_sun_cov,leaf-scale conductance to transpired water coverd
+637,epv_[vegt].gl_t_wv_shade_cov,leaf-scale conductance to transpired water coverd
+638,epv_[vegt].m_ppfd_sun_cov,PAR flux density multiplier (sunlit) coverd
+639,epv_[vegt].m_ppfd_shade_cov,PAR flux density multiplier (shaded) coverd
+640,phen_[vegt].remdays_curgrowth,days left in current growth season
+641,phen_[vegt].remdays_transfer,number of transfer days remaining
+642,phen_[vegt].remdays_litfall,number of litfall days remaining
+643,phen_[vegt].predays_transfer,number of transfer days previous
+644,phen_[vegt].predays_litfall,number of litfall days previous
+651,epv_list[vegt].m_final_sun_cov,product of all other multipliers (sunlit) - coverd
+652,epv_[vegt].m_final_shade_cov,product of all other multipliers (shaded) - coverd
+653,epv_[vegt].growth_red_final,final growth reduction parameter
+654,epv_[vegt].alloc_red_final,final allocation reduction parameter
+655,aout_[vegt].monmaxlai,max. LAI of month
+656,aout_[vegt].annmaxlai,max. LAI of year

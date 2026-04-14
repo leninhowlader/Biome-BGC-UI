@@ -1,0 +1,3 @@
+180,soil->gw_depth,depth of ground water table
+181,soil->surf_temp,soil surface temperature
+182,soil->low_bound_temp,lower boundary layer soil temperature

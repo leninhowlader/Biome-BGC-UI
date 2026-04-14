@@ -1,0 +1,1 @@
+pyuic4 -x FormSoilProfile.ui -o FormSoilProfile.py

@@ -1,0 +1,40 @@
+265,ns_[vegt].leafn,leafn
+266,ns_[vegt].leafn_storage,leafn_storage
+267,ns_[vegt].leafn_transfer,leafn_transfer
+268,ns_[vegt].frootn,frootn
+269,ns_[vegt].frootn_storage,frootn_storage
+270,ns_[vegt].frootn_transfer,frootn_transfer
+271,ns_[vegt].livestemn,livestemn
+272,ns_[vegt].livestemn_storage,livestemn_storage
+273,ns_[vegt].livestemn_transfer,livestemn_transfer
+274,ns_[vegt].deadstemn,deadstemn
+275,ns_[vegt].deadstemn_storage,deadstemn_storage
+276,ns_[vegt].deadstemn_transfer,deadstemn_transfer
+277,ns_[vegt].livecrootn,livecrootn
+278,ns_[vegt].livecrootn_storage,livecrootn_storage
+279,ns_[vegt].livecrootn_transfer,livecrootn_transfer
+280,ns_[vegt].deadcrootn,deadcrootn
+281,ns_[vegt].deadcrootn_storage,deadcrootn_storage
+282,ns_[vegt].deadcrootn_transfer,deadcrootn_transfer
+283,ns_[vegt].st_cwdn,stem coarse woody debris N
+284,ns_[vegt].r_cwdn,root coarse woody debris N
+285,ns_[vegt].l_litr1n,l_litr1n
+286,ns_[vegt].l_litr2n,l_litr2n
+287,ns_[vegt].l_litr3n,l_litr3n
+288,ns_[vegt].l_litr4n,l_litr4n
+289,ns_[vegt].fr_litr1n,fr_litr1n
+290,ns_[vegt].fr_litr2n,fr_litr2n
+291,ns_[vegt].fr_litr3n,fr_litr3n
+292,ns_[vegt].fr_litr4n,fr_litr4n
+293,ns_[vegt].retransn,plant retransloc. N  pool
+294,ns_[vegt].npool,temp. N pool
+535,ns_summary_[vegt].leafn,leaf N
+536,ns_summary_[vegt].stemn,stem N
+537,ns_summary_[vegt].frootn,fine root N
+538,ns_summary_[vegt].crootn,coarse root N
+539,ns_summary_[vegt].vegn,vegetation N
+540,ns_summary_[vegt].l_litrn,leaf litter N
+541,ns_summary_[vegt].fr_litrn,fine root litter N
+542,ns_summary_[vegt].cwdn,coarse woody debris N
+543,ns_summary_[vegt].litrcwdn,litter + cwd N
+545,ns_summary_[vegt].stemn_harvestn_stem_tot_cum,stem + cum. stem harvest N fluxes

@@ -1,0 +1,1 @@
+pyuic4 -x FormReadOutput.ui -o FormReadOutput.py

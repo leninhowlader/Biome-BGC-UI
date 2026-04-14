@@ -1,0 +1,1 @@
+pyuic4 -x DialogPlotProperties.ui -o DialogPlotProperties.py

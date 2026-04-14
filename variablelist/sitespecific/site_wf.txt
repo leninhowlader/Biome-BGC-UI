@@ -1,0 +1,19 @@
+85,sum->daily_evap_tot,site spec. total evaporation
+86,sum->daily_trans_tot,site spec. transpiration
+87,sum->daily_et_tot,site spec. evapotranspiration
+160,wf_site.soilw_pot_evap,site spec. pot. soil evaporation
+161,wf_site.soilw_pot_trans,site spec. pot. transpiration
+162,wf_site.soilw_evap,site spec. soil evaporation
+163,wf_site.soilw_trans,site spec. transpiration
+164,wf_site.soilw_et,site spec. soil evapotranspiration
+165,wf_site.infiltration,site spec. infiltration
+166,wf_site.sum_throughfall,site spec. stand precipitation
+167,wf_site.surf_runoff,site spec. surface runoff
+168,wf_site.prcp_to_soilw,site spec. rainfall
+169,wf_site.prcp_to_snoww,site spec. snowfall
+170,wf_site.canopyw_to_soilw,site secific canopyw to soilw
+171,wf_site.canopyrestw_to_soilw,site spec. canopyrestw to soilw
+172,wf_site.snoww_subl,site spec. snow sublimation
+173,wf_site.snoww_to_soilw,site spec. snow melt
+174,wf_site.soilw_outflow,site spec. soil water outflow
+175,wf_site.soilice_subl,site spec. soil ice sublimation

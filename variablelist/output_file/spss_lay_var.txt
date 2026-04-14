@@ -1,0 +1,53 @@
+0	ws_soil_vol	soil moisture	4
+1	soiltemp	soil temperature	4
+2	cs_soil_1c	soil carbon	4
+3	cs_soil_2c	soil carbon	4
+4	cs_soil_3c	soil carbon	4
+5	cs_soil_4c	soil carbon	4
+6	ns_soil_1n	soil nitrogen	4
+7	ns_soil_2n	soil nitrogen	4
+8	ns_soil_3n	soil nitrogen	4
+9	ns_soil_4n	soil nitrogen	4
+10	w_scalar	?	4
+11	t_scalar	?	4
+12	sd_scalar	?	4
+13	rate_scalar	?	4
+14	wf_soil_water_evap	soil water flux	4
+15	wf_soil_water_trans	soil water flux	4
+16	wf_soil_water_et	soil water flux	4
+17	wf_soil_water_seepage	soil water flux	4
+20	rfac_swkri_evap	?	4
+21	rfac_dehum_evap	?	4
+22	rfac_evap	?	4
+23	ws_soil_lm2	soil water	4
+26	rfac_swkri_trans _veg1		4
+27	rfac_swkri_trans _veg2		4
+28	rfac_swkri_trans _veg3		4
+29	rfac_swkri_trans _veg4		4
+30	rfac_swkri_trans _veg5		4
+31	rfac_dehum_trans_veg1		4
+32	rfac_dehum_trans_veg2		4
+33	rfac_dehum_trans_veg3		4
+34	rfac_dehum_trans_veg4		4
+35	rfac_dehum_trans_veg5		4
+36	rfac_trans_veg1	?	4
+37	rfac_trans_veg2	?	4
+38	rfac_trans_veg3	?	4
+39	rfac_trans_veg4	?	4
+40	rfac_trans_veg5	?	4
+41	cs_l_litr1c 	soil carbon	4
+42	cs_l_litr2c 	soil carbon	4
+43	cs_l_litr3c 	soil carbon	4
+44	cs_l_litr4c 	soil carbon	4
+45	cs_fr_litr1c	soil carbon	4
+46	cs_fr_litr2c	soil carbon	4
+47	cs_fr_litr3c	soil carbon	4
+48	cs_fr_litr4c	soil carbon	4
+49	ns_l_litr1n 	soil carbon	4
+50	ns_l_litr2n 	soil carbon	4
+51	ns_l_litr3n 	soil carbon	4
+52	ns_l_litr4n 	soil nitrogen	4
+53	ns_fr_litr1n 	soil nitrogen	4
+54	ns_fr_litr2n 	soil nitrogen	4
+55	ns_fr_litr3n 	soil nitrogen	4
+56	ns_fr_litr4n 	soil nitrogen	4

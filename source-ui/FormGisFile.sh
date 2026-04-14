@@ -1,0 +1,1 @@
+pyuic4 -x FormGisFile.ui -o FormGisFile.py

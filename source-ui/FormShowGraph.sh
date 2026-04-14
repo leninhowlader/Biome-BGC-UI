@@ -1,0 +1,1 @@
+pyuic4 -x FormShowGraph.ui -o FormShowGraph.py

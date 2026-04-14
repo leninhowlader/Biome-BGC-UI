@@ -1,0 +1,7 @@
+varPFix	moUnit	sdUnit	saUnit	smaUnit	saaUnit	cfDaily	cfAnnual	cfMonthAvg	cfAnnualAvg
+cs	kg C/m²	t C/ha	t C/ha	t C/ha	t C/ha	10	10	10	10
+ns	kg N/m²	kg N/ha	kg N/ha	kg N/ha	kg N/ha	10000	10000	10000	10000
+ws	mm	mm	mm			1	1	1	1
+cf	kg C/(m²*d)	t C/(ha*d)		t C/(ha*mon)	t C/(ha*a)	10		10*MonthDays	3650
+nf	kg N/(m²*d)	kg N/(ha*d)		kg N/(ha*mon)	kg N/(ha*a)	10000		10000*MonthDays	3650000
+wf	mm/d	mm/d		mm/m	mm/a	1		1*MonthDays	365

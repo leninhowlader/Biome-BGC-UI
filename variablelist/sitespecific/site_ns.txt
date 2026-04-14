@@ -1,0 +1,16 @@
+50,ns_soil1n,soil-1 N
+51,ns_soil2n,soil-2 N
+52,ns_soil3n,soil-3 N
+53,ns_soil4n,soil-4 N
+54,ns_sminn,mineral N in soil
+125,ns_sum_leafn_tot,leaf N
+126,ns_sum_stemn_tot,stem N
+127,ns_sum_frootn_tot,fine root N
+128,ns_sum_crootn_tot,coarse root N
+129,ns_sum_vegn_tot,vegetation N
+130,ns_sum_l_litrn_tot,leaf litter N
+131,ns_sum_fr_litrn_tot,fine root litter N
+132,ns_sum_cwdn_tot,site spec. coarse woody debris N
+133,ns_sum_litrcwdn_tot,litter+cwd N
+134,ns_sum_soiln_tot,soil N
+135,ns_sum_totaln_tot,total N

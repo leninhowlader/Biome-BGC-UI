@@ -1,0 +1,15 @@
+header_var	index_str	year	month_str	yrday_str	var_no	epc	vegtype_idx_str	age_str	layer
+var_type	a34	n4	a2	a3	n4	a30	a2	a4	a2
+day	1	1	0	1	0	0	0	0	0
+day_veg	1	1	0	1	0	1	1	1	0
+annavg	1	1	0	0	0	0	0	0	0
+annavg_veg	1	1	0	0	0	1	1	1	0
+monavg	1	1	1	0	0	0	0	0	0
+monavg_veg	1	1	1	0	0	1	1	1	0
+ann	1	1	0	0	0	0	0	0	0
+ann_veg	1	1	0	0	0	1	1	1	0
+day_totlay	1	1	0	1	0	0	0	0	1
+day_lay	1	1	0	1	0	0	0	0	0
+ann_lay	1	1	0	0	0	0	0	0	0
+ann_lay_veg	1	1	0	0	1	1	1	0	0
+day_lay_veg	1	1	0	1	1	1	1	0	0

@@ -1,0 +1,6 @@
+295,ns_[vegt].fire_snk,fire N losses
+296,ns_[vegt].stemn_export_snk,cum. exported wood N
+297,ns_[vegt].planting_input_n_src,cum. planting N input
+298,ns_[vegt].cwdn_stem_harvest_cum,cum. flux from harvested stem N to cwd N
+299,ns_[vegt].litrn_stem_harvest_cum,cum. flux from harvested stem N to litter N
+300,ns_[vegt].harvestn_stem_tot_cum,cum. stem harvest N fluxes

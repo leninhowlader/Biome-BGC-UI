@@ -1,0 +1,4 @@
+562,wf_cum_[vegt].canopyevap_snk,cum. canopy water evaporation
+563,wf_cum_[vegt].trans_snk,cum. transpiration
+564,wf_cum_[vegt].capi_rise_src,cum. capillary rise
+565,wf_cum_[vegt].wat_removal_gw_src,cum. water removal from groundwater (if gw static)

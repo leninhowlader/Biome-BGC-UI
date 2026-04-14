@@ -1,0 +1,5 @@
+513,sum->summary_list[vegt].cum_gpp,cum. GPP
+514,sum->summary_list[vegt].cum_npp,cum. NPP
+515,sum->summary_list[vegt].cum_mr,cum. mainten. respiration
+516,sum->summary_list[vegt].cum_gr,cum. growth respiration
+517,sum->summary_list[vegt].cum_fire,cum. fire C losses

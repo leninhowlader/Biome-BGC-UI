@@ -1,0 +1,1 @@
+pyuic4 -x FormInitialAndOutputSetting.ui -o FormInitialAndOutputSetting.py

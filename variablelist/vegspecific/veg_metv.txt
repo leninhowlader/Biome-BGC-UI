@@ -1,0 +1,16 @@
+0,metvar_[vegt].swabs,canopy absorbed shortwave flux
+1,metvar_[vegt].swtrans,transmitted shortwave flux
+2,metvar_[vegt].swabs_per_plaisun,swabs per unit sunlit proj LAI
+3,metvar_[vegt].swabs_per_plaishade,swabs per unit shaded proj LAI
+4,metvar_[vegt].ppfd_per_plaisun,ppfd per unit sunlit proj LAI
+5,metvar_[vegt].ppfd_per_plaishade,ppfd per unit shaded proj LAI
+6,metvar_[vegt].parabs,PAR absorbed by canopy
+7,metvar_[vegt].partrans,PAR not absorbed by canopy
+8,metvar_[vegt].swabs_cov,canopy absorbed shortwave flux coverd
+9,metvar_[vegt].swtrans_cov,transmitted shortwave flux coverd
+645,metvar_[vegt].swabs_per_plaisun_cov,swabs per unit sunlit proj LAI - coverd
+646,metvar_[vegt].swabs_per_plaishade_cov,swabs per unit shaded proj LAI - coverd
+647,metvar_[vegt].ppfd_per_plaisun_cov,ppfd per unit sunlit proj LAI - coverd
+648,metvar_[vegt].ppfd_per_plaishade_cov,ppfd per unit shaded proj LAI - coverd
+649,metvar_[vegt].parabs_cov,PAR absorbed by canopy - coverd
+650,metvar_[vegt].partrans_cov,PAR not absorbed by canopy - coverd

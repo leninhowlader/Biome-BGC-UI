@@ -1,0 +1,8 @@
+570,wf_[vegt].soilw_pot_trans,potential transpiration
+571,wf_[vegt].soilw_trans,actual transpiration
+572,wf_[vegt].capi_rise,capillary rise
+573,wf_[vegt].capi_rise_layer,layer of capillary rise
+574,wf_[vegt].wat_removal_gw,water removal from groundwater, (if gw static)
+575,wf_[vegt].prcp_to_canopyw,interception on canopy
+576,wf_[vegt].prcp_to_stemw,interception on stem
+577,wf_[vegt].canopyw_evap,evaporation from canopy

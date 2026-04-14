@@ -1,0 +1,1 @@
+pyuic4 -x FormHopspackProblemDefinition.ui -o FormHopspackProblemDefinition.py

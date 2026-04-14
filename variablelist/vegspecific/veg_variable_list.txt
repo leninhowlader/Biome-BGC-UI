@@ -1,0 +1,12 @@
+veg_cf, Carbon flux variables
+veg_cf_cum, Carbon flux variables cumulated
+veg_cs, Carbon state variables
+veg_nf, Nitrogen flux variables
+veg_nf_cum, Nitrogen flux variables cumulated
+veg_ns, Nitrogen state variables
+veg_wf, Water flux variables
+veg_wf_cum, Water flux variables cumulated
+veg_ws, Water state variables
+veg_epv, Ecophysiological variables
+veg_metv, Meteorological variables
+veg_veg, Vegetation variables

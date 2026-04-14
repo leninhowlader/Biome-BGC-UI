@@ -1,0 +1,93 @@
+ECOPHYS	BiomeBGC
+1	1 = WOODY	0 = NON-WOODY
+1	1 = EVERGREEN	0 = DECIDUOUS
+1	1 = C3 PSN	0 = C4 PSN
+1	1 = MODEL PHENOLOGY	0 = USER-SPECIFIED PHENOLOGY
+0	yearday of the middle of transfer (new growth) period  (when phenology flag = 0)
+285	yearday of the middle of litterfall period  (when phenology flag = 0)
+0.085	transfer growth period as fraction of growing season
+0.353	litterfall as fraction of growing season
+0	offset value for parallel translation of onset criterium function (model 1 and 2)
+1848.113	constant a (intercept) for phenology (model 2)
+-316.974	constant b (slope) for phenology (model 2)
+9	Chilldays Temperature Threshold
+4	Thermal Time Temperature Threshold
+34300	critical (first possible) day length for litterfall (middle of period) (seconds)
+2	Soil Temperature (Lower Limit) Litterfall
+0	Litterfall Elongation Factor
+0.18	Annual Leaf Turnover Fraction
+0.81	Annual Fine Root Turnover Fraction
+0.018	Annual Coarse Root Turnover Fraction
+0.7	annual live wood turnover fraction
+0.004	annual whole-plant mortality fraction
+0	annual fire mortality fraction
+1.4	(ALLOCATION) new fine root C : new leaf C
+2	(ALLOCATION) new stem C : new leaf C
+0.071	(ALLOCATION) new live wood C : new total wood C
+0.29	(ALLOCATION) new croot C : new stem C
+0.5	(ALLOCATION) current growth proportion
+34.6	C:N of leaves
+45.9	C:N of leaf litter, after retranslocation
+79.2	C:N of fine roots
+121	C:N of Coarse Roots
+50	C:N of live wood
+602.4	C:N of dead wood
+0.1	Litter Fraction of Stem/Coarse Roots (bark, twigs, branches)
+0.31	leaf litter labile proportion
+0.45	leaf litter cellulose proportion
+0.24	leaf litter lignin proportion
+0.34	fine root labile proportion
+0.44	fine root cellulose proportion
+0.22	fine root lignin proportion
+0.71	dead wood cellulose proportion
+0.29	dead wood lignin proportion
+0.13	Canopy Water Interception Height
+0.084	stem water interceptin height [mm / (kg stem C / m2)]
+0.1	Albedo
+0.51	canopy light extinction coefficient
+2.6	All-Sided to Projected Leaf Area Ratio
+8	canopy average specific leaf area (projected area basis)
+2	Ratio of Shaded SLA:Sunlit SLA
+47.9	Maximum Height [m]
+70.3	Mass at Maximum Height [kg C m-2] 
+0.035	fraction of leaf N in Rubisco
+48	Start Age Growth Reduction
+115	End Age Growth Reduction
+0.002	Growth Reduction Factor
+0	Allocation Reduction Factor (New Stem C : New Leaf C)
+0	N-Fixation [kgN m-2 a-1]
+0.004	maximum stomatal conductance (projected area basis)
+0.00006	cuticular conductance (projected area basis)
+0.09	boundary layer conductance (projected area basis)
+0.25	Plant Available Soil Water Factor: Start of Conductance Reduction
+1	Permanent Wilting Point Factor: Complete Conductance Reduction
+420	VPD: Start of Conductance Reduction
+2000	VPD: Complete Conductance Reduction
+0	[flag] thinning rule, (0 = TABLE, 1 = FUNCTION)
+har/har_0305_01.txt	File Containing Thinning Rule Table
+4.5	First Thinning Stem Carbon Threshold
+0.193	first thinning fraction (not used if flag=0)
+0.14766	thinning rule coefficient b00 (kg C/m²) (not used if flag=0)
+-0.00474	thinning rule coefficient b01 (kg C/m²) (not used if flag=0)
+-101.60403	thinning rule coefficient b10 (kg C/m²) (not used if flag=0)
+101.67685	thinning rule coefficient b11 (kg C/m²) (not used if flag=0)
+0.00003	thinning rule coefficient b12 (kg C/m²) (not used if flag=0)
+6.6382	start harvest coefficient a (intersect) (not used if flag=0)
+-0.0677	start harvest coefficient b (slope) (not used if flag=0)
+5	thinning period (years) (not used if flag=0)
+135	age of clear cut (years)
+1	harvest correction factor
+1.7843	export fraction coefficient a (intersect)
+-0.8931	export fraction coefficient b (slope)
+16.5	optimum temperature for root growth   °C
+5	minimum temperature for root growth   °C
+1.62	bulk density coefficient for maximum root growth   g/cm³
+0.7	critical value of water-filled porosity
+2	minimum pH(H2O) allowing root growth
+7.75	maximum pH allowing root growth
+3.25	minimum pH(H2O) for optimum root growth
+5.15	maximum pH for optimum root growth
+0	water saturation stress   (from 0 to 1)
+0.15	potential vertical root growth rate   m/yr
+94	maximum age of root growth   y
+150	Zeta-Plant (coefficient for vertical root distribution)

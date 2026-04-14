@@ -1,0 +1,63 @@
+10,cs_[vegt].leafc,leaf C
+11,cs_[vegt].leafc_storage,leaf storage C
+12,cs_[vegt].leafc_transfer,leaf transfer C
+13,cs_[vegt].frootc,fine root C
+14,cs_[vegt].frootc_storage,fine root storage C
+15,cs_[vegt].frootc_transfer,fine root transfer C
+16,cs_[vegt].livestemc,live stem C
+17,cs_[vegt].livestemc_storage,live stem storage C
+18,cs_[vegt].livestemc_transfer,live stem transfer C
+19,cs_[vegt].deadstemc,dead stem C
+20,cs_[vegt].deadstemc_storage,dead stem storage C
+21,cs_[vegt].deadstemc_transfer,dead stem transfer C
+22,cs_[vegt].livecrootc,live coarse root C
+23,cs_[vegt].livecrootc_storage,live coarse root storage C
+24,cs_[vegt].livecrootc_transfer,live coarse root transfer C
+25,cs_[vegt].deadcrootc,dead coarse root C
+26,cs_[vegt].deadcrootc_storage,dead coarse root storage C
+27,cs_[vegt].deadcrootc_transfer,dead coarse root transfer C
+28,cs_[vegt].gresp_storage,growth respiration storage C pool
+29,cs_[vegt].gresp_transfer,growth respiration transfer C pool 
+30,cs_[vegt].st_cwdc,coarse stem woody debris C
+31,cs_[vegt].r_cwdc,coarse root woody debris C
+32,cs_[vegt].l_litr1c,leaf litter-1 C
+33,cs_[vegt].l_litr2c,leaf litter-2 C
+34,cs_[vegt].l_litr3c,leaf litter-3 C
+35,cs_[vegt].l_litr4c,leaf litter-4 C
+36,cs_[vegt].fr_litr1c,fine root litter-1 C
+37,cs_[vegt].fr_litr2c,fine root litter-2 C
+38,cs_[vegt].fr_litr3c,fine root litter-3 C
+39,cs_[vegt].fr_litr4c,fine root litter-4 C
+40,cs_[vegt].cpool,temp. photosynth. C pool 
+41,cs_[vegt].psnsun_src,cum. gross PSN from sunlit canopy
+42,cs_[vegt].psnshade_src,cum. gross PSN from shaded canopy
+43,cs_[vegt].leaf_mr_snk,cum. leaf maintenance respiration
+44,cs_[vegt].leaf_gr_snk,cum. leaf growth respiration
+45,cs_[vegt].froot_mr_snk,cum. fine root maintenance respiration
+46,cs_[vegt].froot_gr_snk,cum. fine root growth respiration
+47,cs_[vegt].livestem_mr_snk,cum. live stem maintenance respiration
+48,cs_[vegt].livestem_gr_snk,cum. live stem growth respiration
+49,cs_[vegt].deadstem_gr_snk,cum. dead stem growth respiration
+50,cs_[vegt].livecroot_mr_snk,cum. live coarse root maintenance respiration
+51,cs_[vegt].livecroot_gr_snk,cum. live coarse root growth respiration
+52,cs_[vegt].deadcroot_gr_snk,cum. dead coarse root growth respiration
+53,cs_[vegt].litr1_hr_snk,cum. heterotr. respriation from litter-1 C pool
+54,cs_[vegt].litr2_hr_snk,cum. heterotr. respriation from litter-2 C pool
+55,cs_[vegt].litr4_hr_snk,cum. heterotr. respriation from litter-4 C -pool
+56,cs_[vegt].fire_snk,cum. fire losses
+57,cs_[vegt].stemc_export_snk,cum. exported wood C
+58,cs_[vegt].planting_input_c_src,cum. planting C input
+59,cs_[vegt].cwdc_stem_harvest_cum,cum. flux from harvested stem C to cwd C
+60,cs_[vegt].litrc_stem_harvest_cum,cum. flux from harvested stem C to litter C
+61,cs_[vegt].harvestc_stem_tot_cum,cum. stem harvest C fluxes
+518,cs_summary_[vegt].leafc,leaf C
+519,cs_summary_[vegt].stemc,stem C
+520,cs_summary_[vegt].frootc,fine root C
+521,cs_summary_[vegt].crootc,coarse root C
+522,cs_summary_[vegt].vegc,vegetation C
+523,cs_summary_[vegt].grespc,growth respiration pool C
+524,cs_summary_[vegt].l_litrc,leaf litter C
+525,cs_summary_[vegt].fr_litrc,fine root litter C
+526,cs_summary_[vegt].cwdc,coarse woody debris
+527,cs_summary_[vegt].litrcwdc,litter + cwd carbon
+528,cs_summary_[vegt].stemc_harvestc_stem_tot_cum,stem + cum. stem harvest C fluxes

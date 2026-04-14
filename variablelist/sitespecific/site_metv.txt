@@ -1,0 +1,14 @@
+0,metv->prcp,precipitation
+1,metv->tmax,daily max. air temperature
+2,metv->tmin,daily min. air temperature
+3,metv->tavg,daily aver. temperature
+4,metv->tday,daylight average air temperature
+5,metv->tnight,nightime average air temperature
+6,metv->tsoil_10,daily soil temperature (avg) top 10 cm layers
+7,metv->vpd,vapor pressure deficit
+8,metv->swavgfd,daylight avg shortwave flux density
+9,metv->swtrans,transmitted shortwave flux
+10,metv->par,photosynthetically active radiation
+11,metv->pa,atmospheric pressure
+12,metv->co2,atmospheric CO2
+13,metv->dayl,daylength

@@ -1,0 +1,1 @@
+pyuic4 -x DialogVersionSettings.ui -o DialogVersionSettings.py

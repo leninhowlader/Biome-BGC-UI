@@ -1,0 +1,1 @@
+pyuic4 -x HopspackInterface.ui -o HopspackInterface.py

@@ -1,0 +1,13 @@
+site_cf, Carbon flux variables
+site_cf_cum, Carbon flux variables cumulated
+site_cs, Carbon state variables
+site_nf, Nitrogen flux variables
+site_nf_cum, Nitrogen flux variables cumulated
+site_ns, Nitrogen state variables
+site_wf_cum, Water flux variables cumulated
+site_wf, Water flux variables
+site_ws, Water state variables
+site_epv, Ecophysiological variables
+site_metv, Meteorological variables
+site_psn, Photosynthesis variables
+site_soil, Soil variables

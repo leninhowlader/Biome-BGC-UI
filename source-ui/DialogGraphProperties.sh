@@ -1,0 +1,1 @@
+pyuic4 -x DialogGraphProperties.ui -o DialogGraphProperties.py

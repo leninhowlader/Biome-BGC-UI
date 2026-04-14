@@ -1,0 +1,21 @@
+30,cs->soil1c,cs_soil1
+31,cs->soil2c,cs_soil2
+32,cs->soil3c,cs_soil3
+33,cs->soil4c,cs_soil4
+34,cs->soilc_wst,soil C in 0-200 cm
+35,cs->soil1_hr_snk,cum. heterotr. respir. from soil-1 C pool
+36,cs->soil2_hr_snk,cum. heterotr. respir. from soil-2 C pool
+37,cs->soil3_hr_snk,cum. heterotr. respir. from soil-3 C pool
+38,cs->soil4_hr_snk,cum. heterotr. respir. from soil-4 C pool
+109,sum->leafc_tot,site spec. leaf-C
+110,sum->stemc_tot,site spec. stem-C
+111,sum->frootc_tot,site spec. fine root-C
+112,sum->crootc_tot,site spec. coarse root-C
+113,sum->grespc_tot,site spec. growth resp. C pool
+114,sum->vegc_tot,site spec. vegetation
+115,sum->l_litrc_tot,site spec. leaf litter-C
+116,sum->fr_litrc_tot,site spec. fine root litter-C
+117,sum->cwdc_tot,site spec. coarse woody debris
+118,sum->litrcwdc_tot,site spec. litter+cwd
+119,sum->soilc_tot,soil-C
+120,sum->totalc_tot,total-C

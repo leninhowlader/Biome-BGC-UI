@@ -1,0 +1,1 @@
+pyuic4 -x FormHopspackRun.ui -o FormHopspackRun.py

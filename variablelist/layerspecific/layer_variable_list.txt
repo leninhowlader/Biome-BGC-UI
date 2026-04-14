@@ -1,0 +1,25 @@
+0,wslay[layer]->soilw_vol,amount of soil water (Vol.% or mm/dm)
+1,stemplay[layer]->soiltemp,soil temperature
+2,cslay[layer]->soil1c,microbial recycling pool C (fast)
+3,cslay[layer]->soil2c,microbial recycling pool C (medium) 
+4,cslay[layer]->soil3c,microbial recycling pool C (slow)
+5,cslay[layer]->soil4c,"recalcitrant SOM C (humus, slowest)"
+6,nslay[layer]->soil1n,microbial recycling pool N (fast)
+7,nslay[layer]->soil2n,microbial recycling pool N (medium) 
+8,nslay[layer]->soil3n,microbial recycling pool N (slow)
+9,nslay[layer]->soil4n,"recalcitrant SOM N (humus, slowest)"
+10,cslay[layer]->w_scalar,decomposition water scalar
+11,cslay[layer]->t_scalar,decomposition temperature scala
+12,cslay[layer]->sd_scalar,decomposition soil depth scalar
+13,cslay[layer]->rate_scalar,decomposition total scalar
+14,wflay[layer].wflay_site.soilw_evap_lay,site specific actual evaporation from layer
+15,wflay[layer].wflay_site.soilw_trans_lay,site specific actual transpiration from layer
+16,wflay[layer].wflay_site.soilw_et_lay,site specific actual evapotranspiration from layer
+17,wflay[layer].wflay_site.seepage_lay,site specific seepage from layer
+20,wslay[layer]->rfac_swkri_evap,red. fac. evaporation calculated with critical soil water content
+21,wslay[layer]->rfac_dehum_evap,red. factor of dehumidification for evaporation
+22,wslay[layer]->rfac_evap,total red. factor evaporation
+23,ws_soil_lm2,soil water
+26-30,wslay[layer]->wslay_list[vegt].rfac_swkri_trans,red. fac. transp. calculated with critical soil water content
+31-35,wslay[layer]->wslay_list[vegt].rfac_dehum_trans,red. factor of dehumidification for transpiration
+36-40,wslay[layer]->wslay_list[vegt].rfac_trans,total red. factor transpiration

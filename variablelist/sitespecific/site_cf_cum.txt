@@ -1,0 +1,8 @@
+101,sum->cum_gpp_tot,cum. site spec. GPP
+102,sum->cum_npp_tot,cum. site spec. NPP
+103,sum->cum_nep_tot,cum. site spec. NEP
+104,sum->cum_nee_tot,cum. site spec. NEE
+105,sum->cum_mr_tot,cum. site spec. maintenance respiration
+106,sum->cum_gr_tot,cum. site spec. growth respiration
+107,sum->cum_hr_tot,cum. heterotrophic respiration
+108,sum->cum_fire_tot,cum. fire losses

@@ -1,0 +1,16 @@
+579,veg_[vegt].stand_density,stand_density of vegtype (input parameter)
+580,veg_[vegt].height,current vegetation height
+581,veg_[vegt].canopy_cover_act,actual canopy closure value
+582,veg_[vegt].root_depth,root depth of vegetation
+583,veg_[vegt].rgrowth,root growth
+584,veg_[vegt].cf_stress,factor for coarse fragments stress on root growth
+585,veg_[vegt].t_stress,factor for temperature stress on root growth
+586,veg_[vegt].bd_stress,factor for bulk density strength stress on root growth
+587,veg_[vegt].st_stress,factor for soil strength stress on root growth
+588,veg_[vegt].air_stress,factor for aeration stress on root growth
+589,veg_[vegt].ph_stress,factor for pH stress on root growth
+590,veg_[vegt].stress,resulting stress factor on root growth
+591,veg_[vegt].canopy_cover_act_cov,actual canopy closure value coverd
+592,veg_[vegt].fr_cut,fraction cut
+593,veg_[vegt].fr_export,fraction export
+594,veg_[vegt].ss_rdepth_init,root depth of vegetation from ss-file

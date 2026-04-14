@@ -1,0 +1,3 @@
+145,ws->soilw,soil water
+146,ws->snoww,snow water
+147,ws->sumsoilwatgw,soil water in goundwater layers

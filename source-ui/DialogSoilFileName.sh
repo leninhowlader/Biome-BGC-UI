@@ -1,0 +1,1 @@
+pyuic4 -x DialogSoilFileName.ui -o DialogSoilFileName.py

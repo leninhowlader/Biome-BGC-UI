@@ -1,0 +1,1 @@
+pyuic4 -x FormVegFile.ui -o FormVegFile.py

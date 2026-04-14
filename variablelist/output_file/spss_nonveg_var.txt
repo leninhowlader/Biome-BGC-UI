@@ -1,0 +1,183 @@
+varId	varName	varTitle	varClass	dUnit	mUnit	aUnit	vLen
+0	metv_prcp	precipitation		 [mm/d]	 [mm/mon]	 [mm/a]	4
+1	metv_tmax	daily max. air temperature	W	 [°C]	 [°C]	 [°C]	4
+2	metv_tmin	daily min. air temperature	°C	 [°C]	 [°C]	 [°C]	4
+3	metv_tmean	daily aver. temperature	°C	 [°C]	 [°C]	 [°C]	4
+4	metv_tday	daylight average air temperature	°C	 [°C]	 [°C]	 [°C]	4
+5	metv_tnight	nightime average air temperature	°C	 [°C]	 [°C]	 [°C]	4
+6	metv_tsoil_10	daily soil temperature, avg, top 10 cm layers	°C	 [°C]	 [°C]	 [°C]	4
+7	metv_vpd	vapor pressure deficit	Pa	 [Pa]	 [Pa]	 [Pa]	4
+8	metv_swavgfd	daylight avg shortwave flux density	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+9	metv_swtrans	transmitted shortwave flux	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+10	metv_par	photosynthetically active radiation	W	 [W/m²]	 [W/m²]	 [W/m²]	4
+11	metv_pa	atmospheric pressure	Pa	 [Pa]	 [Pa]	 [Pa]	4
+12	metv_co2	atmospheric CO2	-	 [ppmv]	 [ppmv]	 [ppmv]	4
+13	metv_dayl	daylength	-	 [sec]	 [sec]	 [sec]	4
+30	cs_soil1	cs_soil1	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+31	cs_soil2	cs_soil2	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+32	cs_soil3	cs_soil3	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+33	cs_soil4	cs_soil4	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+34	cs_soil_wst	soil C in 0-200 cm	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+35	cs_cum_soil1_hr	cum. heterotr. respir. from soil-1 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+36	cs_cum_soil2_hr	cum. heterotr. respir. from soil-2 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+37	cs_cum_soil3_hr	cum. heterotr. respir. from soil-3 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+38	cs_cum_soil4_hr	cum. heterotr. respir. from soil-4 C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+40	cf_site_soil1_hr	heterotr. respir. from soil-1 pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+41	cf_site_soil1_to_soil2	cf_site_soil1c_to_soil2c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+42	cf_site_soil2_hr	heterotr. respir. from soil-2 pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+43	cf_site_soil2_to_soil3	cf_site_soil2c_to_soil3c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+44	cf_site_soil3_hr	heterotr. respir. from soil-3 pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+45	cf_site_soil3_to_soil4	cf_site_soil3c_to_soil4c	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+46	cf_site_soil4_hr	heterotr. respir. from soil-4 pool	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+50	ns_soil1	soil-1 N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+51	ns_soil2	soil-2 N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+52	ns_soil3	soil-3 N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+53	ns_soil4	soil-4 N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+54	ns_sminn	mineral N in soil	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+55	ns_cum_nfix	cum biol. N fixation	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+56	ns_cum_ndep	cum N-deposition	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+57	ns_cum_nleached	cum N leaching	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+58	ns_cum_nvol	cum N loss to volatilization	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+65	nf_site_ndep_to_smin	N deposition	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+66	nf_site_nfix_to_smin	biol. N fixation	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+67	nf_site_soil1_to_soil2	N flux from soil1 to soil2	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+68	nf_site_smin_to_soil2_s1	mineralization flux soil1 to soil2 	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+69	nf_site_soil2_to_soil3	N flux from soil2 to soil3	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+70	nf_site_smin_to_soil3_s2	mineralization flux soil21 to soil3 	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+71	nf_site_soil3_to_soil4	N flux from soil3 to soil4	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+72	nf_site_smin_to_soil4_s3	mineralization flux soil3 to soil4 	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+73	nf_site_soil4_to_smin	N flux from soil4	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+74	nf_site_smin_to_nvol_s1s2	denitrification flux from soil1 to soil2	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+75	nf_site_smin_to_nvol_s2s3	denitrification flux from soil2 to soil3	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+76	nf_site_smin_to_nvol_s3s4	denitrification flux from soil3 to soil4	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+77	nf_site_smin_to_nvol_s4	denitrification flux from soil4	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+78	nf_site_smin_to_denitrif	denitrification	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+79	nf_site_smin_leached	N leaching	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+85	wf_site_evap_tot	site spec. total evaporation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+86	wf_site_trans_tot	site spec. transpiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+87	wf_site_et_tot	site spec. evapotranspiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+88	cf_site_gpp	site spec. GPP	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+89	cf_site_npp	site spec. NPP	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+90	cf_site_nep	site spec. NEP	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+91	cf_site_nee	site spec. NEE	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+92	cf_site_mr	site spec. maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+93	cf_site_gr	site spec. growth respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+94	cf_site_hr	site spec. heterotrophic respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+95	cf_site_fr_hr	site spec. fine root heterotrophic respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+96	cf_site_fire	site spec. fire losses	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+97	cf_site_rr_m	site spec. root maintenance respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+98	cf_site_rr_g	site spec. root growth respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+99	cf_site_rr	site spec. root respiration	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+100	cf_site_frootlit_loss_soil	site spec. fine root litter flux to soil 	cf	 [t C/(ha*d)]	 [t C/(ha*m)]	 [t C/(ha*a)]	4
+101	cs_site_cum_gpp	cum. site spec. GPP	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+102	cs_site_cum_npp	cum. site spec. NPP	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+103	cs_site_cum_nep	cum. site spec. NEP	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+104	cs_site_cum_nee	cum. site spec. NEE	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+105	cs_site_cum_mr	cum. site spec. maintenance respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+106	cs_site_cum_gr	cum. site spec. growth respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+107	cs_site_cum_hr	cum. heterotrophic respiration	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+108	cs_site_cum_fire	cum. fire losses	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+109	cs_site_leaf	site spec. leaf-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+110	cs_site_stem	site spec. stem-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+111	cs_site_froot	site spec. fine root-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+112	cs_site_croot	site spec. coarse root-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+113	cs_site_gresp	site spec. growth resp. C pool	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+114	cs_site_veg	site spec. vegetation	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+115	cs_site_l_litr	site spec. leaf litter-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+116	cs_site_fr_litr	site spec. fine root litter-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+117	cs_site_cwd	site spec. coarse woody debris	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+118	cs_site_litrcwd	site spec. litter+cwd	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+119	cs_site_soil	soil-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+120	cs_site_total	total-C	cs	 [t C/ha]	 [t C/ha]	 [t C/ha]	4
+125	ns_site_leaf	leaf N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+126	ns_site_stem	stem N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+127	ns_site_froot	fine root N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+128	ns_site_croot	coarse root N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+129	ns_site_veg	vegetation N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+130	ns_site_l_litr	leaf litter N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+131	ns_site_fr_litr	fine root litter N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+132	ns_site_cwd	site spec. coarse woody debris N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+133	ns_site_litrcwd	litter+cwd N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+134	ns_site_soil	soil N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+135	ns_site_total	total N	ns	 [kg N/ha]	 [kg N/ha]	 [kg N/ha]	4
+136	nf_site_nvol_loss	total N volatilization flux	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+145	ws_soil	soil water	ws	 [mm]	 [mm]	 [mm]	4
+146	ws_snow	snow water	ws	 [mm]	 [mm]	 [mm]	4
+147	ws_sumsoilwatgw	soil water in goundwater layers	ws	 [mm]	 [mm]	 [mm]	4
+148	ws_cum_prcp	cum. precipitation	ws	 [mm]	 [mm]	 [mm]	4
+149	ws_cum_outflow	cum. outflow	ws	 [mm]	 [mm]	 [mm]	4
+150	ws_cum_soilevap	cum soil evaporation	ws	 [mm]	 [mm]	 [mm]	4
+151	ws_cum_snowsubl	cum snow sublimation	ws	 [mm]	 [mm]	 [mm]	4
+152	ws_cum_surf_runoff	cum surface runoff	ws	 [mm]	 [mm]	 [mm]	4
+153	ws_cum_infiltration	cum. infiltration	ws	 [mm]	 [mm]	 [mm]	4
+154	ws_cum_throughfall	cum. throughfall	ws	 [mm]	 [mm]	 [mm]	4
+155	ws_cum_soilice_subl	cum. soil ice sublimation	ws	 [mm]	 [mm]	 [mm]	4
+160	wf_site_soil_pot_evap	site spec. pot. soil evaporation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+161	wf_site_soil_pot_trans	site spec. pot. transpiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+162	wf_site_soil_evap	site spec. soil evaporation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+163	wf_site_soil_trans	site spec. transpiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+164	wf_site_soil_et	site spec. soil evapotranspiration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+165	wf_site_infiltration	site spec. infiltration	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+166	wf_site_standprcp	site spec. stand precipitation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+167	wf_site_surf_runoff	site spec. surface runoff	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+168	wf_site_prcp_to_soil	site spec. rainfall	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+169	wf_site_prcp_to_snow	site spec. snowfall	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+170	wf_site_canopy_to_soil	site secific canopyw to soilw	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+171	wf_site_canopyrest_to_soil	site spec. canopyrestw to soilw	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+172	wf_site_snow_subl	site spec. snow sublimation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+173	wf_site_snow_to_soil	site spec. snow melt	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+174	wf_site_soil_outflow	site spec. soil water outflow	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+175	wf_site_soilice_subl	site spec. soil ice sublimation	wf	 [mm/d]	 [mm/mon]	 [mm/a]	4
+180	soil_gw_depth	depth of ground water table	m	 [m]	 [m]	 [m]	4
+181	soil_surf_temp	soil surface temperature	°C	 [°C]	 [°C]	 [°C]	4
+182	soil_low_bound_temp	lower boundary layer soil temperature	°C	 [°C]	 [°C]	 [°C]	4
+185	epv_t_scalar	decomp. temperature scalar	dim				4
+186	epv_w_scalar	decomp. water scalar	dim				4
+187	epv_sd_scalar	decomp. soil depth scalar	dim				4
+188	epv_rate_scalar	decomp. combined scalar	dim				4
+189	epv_kfrag_st_act	decomp. actual stem defragmentation rate	-	[1/d]	[1/d]	[1/d]	4
+190	epv_kfrag_r_act	decomp. actual root defragmentation rate	-	[1/d]	[1/d]	[1/d]	4
+191	epv_fpi	fraction of potential immobilization	dim				4
+192	nf_gross_nmin	gross N mineralization	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+193	nf_gross_nimmob	gross N immobilization	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+194	nf_net_nmin	net N mineralization	nf	 [kg N/(ha*d)]	 [kg N/(ha*m)]	 [kg N/(ha*a)]	4
+200	psn_sun_pa		-				4
+201	psn_sun_co2		-				4
+202	psn_sun_t		-				4
+203	psn_sun_lnc		-				4
+204	psn_sun_flnr		-				4
+205	psn_sun_ppfd		-				4
+206	psn_sun_g		-				4
+207	psn_sun_dlmr		-				4
+208	psn_sun_Ci		-				4
+209	psn_sun_O2		-				4
+210	psn_sun_Ca		-				4
+211	psn_sun_gamma		-				4
+212	psn_sun_Kc		-				4
+213	psn_sun_Ko		-				4
+214	psn_sun_Vmax		-				4
+215	psn_sun_Jmax		-				4
+216	psn_sun_J		-				4
+217	psn_sun_Av		-				4
+218	psn_sun_Aj		-				4
+219	psn_sun_A		-				4
+220	psn_shade_pa		-				4
+221	psn_shade_co2		-				4
+222	psn_shade_t		-				4
+223	psn_shade_lnc		-				4
+224	psn_shade_flnr		-				4
+225	psn_shade_ppfd		-				4
+226	psn_shade_g		-				4
+227	psn_shade_dlmr		-				4
+228	psn_shade_Ci		-				4
+229	psn_shade_O2		-				4
+230	psn_shade_Ca		-				4
+231	psn_shade_gamma		-				4
+232	psn_shade_Kc		-				4
+233	psn_shade_Ko		-				4
+234	psn_shade_Vmax		-				4
+235	psn_shade_Jmax		-				4
+236	psn_shade_J		-				4
+237	psn_shade_Av		-				4
+238	psn_shade_Aj		-				4
+239	psn_shade_A		-				4
